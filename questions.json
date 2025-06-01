@@ -1066,5 +1066,17 @@
     "options": ["Maintain separate tracking systems and reconcile at project end", "Develop a unified reporting framework that maps Agile metrics to stage-gate milestones", "Switch entirely to Agile and eliminate stage-gate processes", "Abandon Agile practices and adopt predictive methodology exclusively"],
     "correct_answer": "Develop a unified reporting framework that maps Agile metrics to stage-gate milestones",
     "difficulty": "Very Hard"
+  },
+    {
+    "question": "During risk response planning, a project team decides to purchase insurance for potential equipment damage. This is an example of which risk response strategy?",
+    "options": ["Avoid", "Mitigate", "Transfer", "Accept"],
+    "correct_answer": "Transfer",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Scrum, which ceremony allows stakeholders to inspect the product increment and adapt the product backlog?",
+    "options": ["Daily Standup", "Sprint Planning", "Sprint Review", "Backlog Refinement"],
+    "correct_answer": "Sprint Review",
+    "difficulty": "Hard"
   }
 ]
