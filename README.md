@@ -1,1 +1,1 @@
-# pmp-quizzer-go
+# PMP Quizzer (Go)

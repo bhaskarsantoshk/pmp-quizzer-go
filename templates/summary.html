@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exam Summary</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 2rem auto; line-height: 1.5; }
+    h1, h2 { text-align: center; }
+    .score { text-align: center; font-size: 1.2rem; margin-bottom: 2rem; }
+    .summary-block { margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; }
+    .correct { color: green; font-weight: bold; }
+    .incorrect { color: red; font-weight: bold; }
+    .button-home { display: block; margin: 2rem auto; padding: 0.6rem 1.2rem; background: #007BFF; color: white; border-radius: 4px; text-align: center; width: 120px; text-decoration: none; }
+    .button-home:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1>Exam Completed</h1>
+  <div class="score">
+    You scored <strong>{{ .Correct }}</strong> out of <strong>{{ .Total }}</strong>
+  </div>
+  {{- range $i, $aq := .Answered }}
+    <div class="summary-block">
+      <h2>Q{{ add $i 1 }}. {{ $aq.Question.Text }}</h2>
+      <div class="details">
+        {{- if eq $aq.UserAnswer $aq.CorrectAnswer }}
+          <p><strong>Your Answer:</strong> <span class="correct">{{ $aq.UserAnswer }}</span> ✓</p>
+        {{- else }}
+          <p><strong>Your Answer:</strong> <span class="incorrect">{{ $aq.UserAnswer }}</span> ✗</p>
+          <p><strong>Correct Answer:</strong> <span class="correct">{{ $aq.CorrectAnswer }}</span></p>
+        {{- end }}
+        <p><strong>Difficulty:</strong> {{ $aq.Difficulty }}</p>
+      </div>
+    </div>
+  {{- end }}
+  <a href="/" class="button-home">Restart Exam</a>
+  <script>
+    // Clear the exam end timestamp for a fresh start next time
+    localStorage.removeItem('examEndTime');
+  </script>
+</body>
+</html>

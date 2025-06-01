@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PMP Practice Quiz</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 2rem auto; line-height: 1.5; }
+    h2 { margin-top: 1.5rem; }
+    .question-block { margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; }
+    .difficulty { font-size: 0.9rem; color: #555; }
+    .options { margin-top: 0.5rem; }
+    .options label { display: block; margin-bottom: 0.3rem; }
+    .buttons { margin-top: 2rem; }
+    .buttons button {
+      padding: 0.6rem 1.2rem; margin-right: 1rem; border: none;
+      background-color: #007BFF; color: white; border-radius: 4px;
+      cursor: pointer; font-size: 1rem;
+    }
+    .buttons button:hover { background-color: #0056b3; }
+    .timer { font-size: 1rem; color: #d00; margin-bottom: 1rem; text-align: right; }
+  </style>
+</head>
+<body>
+  <h1>PMP Practice Quiz</h1>
+  <p>Question {{ add .CurrentIndex 1 }} of {{ .TotalCount }}</p>
+  <div class="timer">
+    Time Remaining: <span id="countdown"></span> seconds
+  </div>
+  <form id="questionForm" method="POST" action="/next">
+    <div class="question-block">
+      <h2>{{ .Question.Text }}</h2>
+      <p class="difficulty"><strong>Difficulty:</strong> {{ .Question.Difficulty }}</p>
+      <div class="options">
+        {{- range $i, $opt := .Question.Options }}
+          <label>
+            <input type="radio" name="answer" value="{{ $opt }}" required />
+            {{ $opt }}
+          </label>
+        {{- end }}
+      </div>
+    </div>
+    <div class="buttons">
+      <button type="submit">Next</button>
+      <button formaction="/end" type="submit">End Quiz</button>
+    </div>
+  </form>
+  <script>
+    // Set total exam time (in seconds)
+    const TOTAL_EXAM_TIME = 10; // Adjust as needed
+
+    // Try to use an existing timestamp; otherwise, set it now
+    let examEndTime = localStorage.getItem('examEndTime');
+    if (!examEndTime) {
+      const endTimestamp = Date.now() + TOTAL_EXAM_TIME * 1000;
+      localStorage.setItem('examEndTime', endTimestamp);
+      examEndTime = endTimestamp;
+    } else {
+      examEndTime = parseInt(examEndTime);
+    }
+
+    function updateTimer() {
+  const now = Date.now();
+  const diff = examEndTime - now;
+  const timeLeft = Math.max(0, Math.ceil(diff / 1000));
+  const min = Math.floor(timeLeft / 60);
+  const sec = timeLeft % 60;
+  document.getElementById('countdown').textContent = `${min}:${sec.toString().padStart(2, '0')}`;
+  if (timeLeft <= 0) {
+    clearInterval(timerId);
+    localStorage.removeItem('examEndTime');
+    const form = document.getElementById('questionForm');
+    form.action = "/end";
+    form.method = "POST";
+    document.querySelectorAll('.buttons button').forEach(btn => btn.disabled = true);
+    form.submit();
+  }
+}
+
+    // If exam is already expired, block input immediately
+    if (examEndTime - Date.now() <= 0) {
+      document.querySelectorAll('.buttons button').forEach(btn => btn.disabled = true);
+    }
+
+    updateTimer();
+    const timerId = setInterval(updateTimer, 1000);
+
+    document.querySelectorAll('.buttons button').forEach(btn => {
+      btn.addEventListener('click', () => clearInterval(timerId));
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,454 @@
+[
+  {
+    "question": "What is the primary output of the Develop Project Charter process?",
+    "options": [
+      "Project Management Plan",
+      "Project Charter",
+      "Scope Statement",
+      "Stakeholder Register"
+    ],
+    "correct_answer": "Project Charter",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following best describes the difference between product scope and project scope?",
+    "options": [
+      "Product scope defines features; project scope defines work required to deliver product features",
+      "Product scope defines cost; project scope defines schedule",
+      "Product scope is managed by the project manager; project scope is managed by stakeholders",
+      "Product scope refers to deliverables; project scope refers to team assignments"
+    ],
+    "correct_answer": "Product scope defines features; project scope defines work required to deliver product features",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which tool or technique is used in the Control Quality process to verify that deliverables meet the defined standards?",
+    "options": [
+      "Cause-and-Effect Diagram",
+      "Control Chart",
+      "Work Breakdown Structure (WBS)",
+      "Risk Register"
+    ],
+    "correct_answer": "Control Chart",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which estimating technique uses high-level parameters (such as square footage or function points) and historical data to determine project cost or duration early in the project?",
+    "options": [
+      "Bottom-up Estimating",
+      "Analogous Estimating",
+      "Three-Point Estimating",
+      "Parametric Estimating"
+    ],
+    "correct_answer": "Parametric Estimating",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "If a project’s Cost Performance Index (CPI) is 0.8, what does this indicate?",
+    "options": [
+      "The project is under budget",
+      "The project is over budget",
+      "The project is on budget",
+      "Cost data is inaccurate"
+    ],
+    "correct_answer": "The project is over budget",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which process involves defining and authorizing project structure, scope, and stakeholders’ responsibilities?",
+    "options": [
+      "Plan Scope Management",
+      "Develop Project Charter",
+      "Identify Stakeholders",
+      "Define Activities"
+    ],
+    "correct_answer": "Develop Project Charter",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which method is used to determine the earliest and latest start and finish dates for project activities?",
+    "options": [
+      "Earned Value Method",
+      "Critical Path Method",
+      "Parametric Modeling",
+      "Variance Analysis"
+    ],
+    "correct_answer": "Critical Path Method",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which document contains detailed descriptions of project deliverables, acceptance criteria, and work required?",
+    "options": [
+      "Scope Statement",
+      "Resource Breakdown Structure",
+      "Communications Management Plan",
+      "Risk Management Plan"
+    ],
+    "correct_answer": "Scope Statement",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You notice that several team members are unclear about their roles. Which tool or technique would you use to clarify roles and responsibilities?",
+    "options": [
+      "RACI Matrix",
+      "Pareto Diagram",
+      "Monte Carlo Simulation",
+      "Vendor Performance Reports"
+    ],
+    "correct_answer": "RACI Matrix",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which communication method involves information flowing from the project team to stakeholders without expectation of immediate feedback?",
+    "options": [
+      "Interactive Communication",
+      "Push Communication",
+      "Pull Communication",
+      "Stakeholder Communication"
+    ],
+    "correct_answer": "Push Communication",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the formula for calculating Schedule Performance Index (SPI)?",
+    "options": [
+      "EV / AC",
+      "EV / PV",
+      "PV / EV",
+      "AC / EV"
+    ],
+    "correct_answer": "EV / PV",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which process generates a detailed procurement documentation package containing requirements, constraints, and contract type?",
+    "options": [
+      "Plan Procurement Management",
+      "Conduct Procurements",
+      "Control Procurements",
+      "Close Procurements"
+    ],
+    "correct_answer": "Plan Procurement Management",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During a project kickoff, a key stakeholder expresses uncertainty about project benefits. To ensure stakeholder buy-in, you should first:",
+    "options": [
+      "Develop a stakeholder management plan",
+      "Escalate the issue to the sponsor",
+      "Conduct a stakeholder analysis to understand concerns",
+      "Add more budget to address stakeholder’s concerns"
+    ],
+    "correct_answer": "Conduct a stakeholder analysis to understand concerns",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A project manager is reviewing the risk register and finds a high-probability, high-impact risk that was not previously recorded. Which process should they perform next?",
+    "options": [
+      "Perform Qualitative Risk Analysis",
+      "Plan Risk Responses",
+      "Perform Quantitative Risk Analysis",
+      "Monitor Risks"
+    ],
+    "correct_answer": "Perform Qualitative Risk Analysis",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Given the following activity sequence and durations, what is the project’s critical path?  \n• A (4 days)  \n• B (5 days) depends on A  \n• C (3 days) depends on A  \n• D (2 days) depends on B and C",
+    "options": [
+      "A → B → D (11 days)",
+      "A → C → D (9 days)",
+      "A → B → C → D (14 days)",
+      "A → D (6 days)"
+    ],
+    "correct_answer": "A → B → D (11 days)",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your project’s Planned Value (PV) is \\$100,000, Earned Value (EV) is \\$90,000, and Actual Cost (AC) is \\$110,000. What is the Cost Performance Index (CPI)?",
+    "options": [
+      "0.82",
+      "0.90",
+      "1.22",
+      "1.11"
+    ],
+    "correct_answer": "0.82",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In a scenario where the customer frequently requests design changes mid-execution, which action should the project manager take first?",
+    "options": [
+      "Implement change immediately to satisfy the customer",
+      "Document the change request and analyze impact on scope, cost, and schedule",
+      "Ignore the request until the next status meeting",
+      "Escalate to the project sponsor for approval"
+    ],
+    "correct_answer": "Document the change request and analyze impact on scope, cost, and schedule",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You are managing a hybrid project that combines waterfall planning phases and an Agile development cycle. The waterfall phase is nearing completion, but the Agile team reports scope creep. What is the best approach to handle this?",
+    "options": [
+      "Freeze all requirements until waterfall is complete",
+      "Allow the Agile team to continue without constraints to maintain velocity",
+      "Conduct a joint review with both teams to reprioritize backlog and align with waterfall deliverables",
+      "Postpone all Agile sprints until the waterfall deliverables are handed off"
+    ],
+    "correct_answer": "Conduct a joint review with both teams to reprioritize backlog and align with waterfall deliverables",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "A major stakeholder refuses to attend status meetings and has not responded to multiple communication attempts. As the project manager, you should:",
+    "options": [
+      "Proceed without their input since they are not actively engaged",
+      "Escalate the issue to the sponsor and request assistance in gaining stakeholder attendance",
+      "Remove the stakeholder from the stakeholder register",
+      "Send a summary of decisions via email and mark their input as implicit approval"
+    ],
+    "correct_answer": "Escalate the issue to the sponsor and request assistance in gaining stakeholder attendance",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Your project is three weeks behind schedule. The sponsor is pressuring you to finish on time. To accelerate, you decide to crash activities. Which trade-off should you expect?",
+    "options": [
+      "Increased risk does not affect cost",
+      "Shortened schedule with no impact on quality",
+      "Increased cost due to additional resources",
+      "Reduced stakeholder satisfaction"
+    ],
+    "correct_answer": "Increased cost due to additional resources",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "During procurement negotiations, the seller proposes a contract that includes both fixed-price and cost-reimbursable elements. Which type of contract is this?",
+    "options": [
+      "Fixed Price Incentive Fee (FPIF)",
+      "Cost Plus Fixed Fee (CPFF)",
+      "Time and Materials (T&M)",
+      "Cost Plus Incentive Fee (CPIF)"
+    ],
+    "correct_answer": "Cost Plus Incentive Fee (CPIF)",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Agile terminology, which artifact represents the prioritized list of features and requirements for the product?",
+    "options": [
+      "Sprint Backlog",
+      "Product Backlog",
+      "Increment",
+      "Burndown Chart"
+    ],
+    "correct_answer": "Product Backlog",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Your quality control metrics show a defect rate exceeding the agreed threshold. What is the first step you should take?",
+    "options": [
+      "Initiate a corrective action without analysis",
+      "Perform a root cause analysis using a Fishbone Diagram",
+      "Increase the testing budget",
+      "Accept the defects as normal variance"
+    ],
+    "correct_answer": "Perform a root cause analysis using a Fishbone Diagram",
+    "difficulty": "Very Hard"
+  },
+
+  {
+    "question": "Which process is responsible for integrating all project management processes and creating the Project Management Plan?",
+    "options": [
+      "Direct and Manage Project Work",
+      "Develop Project Management Plan",
+      "Perform Integrated Change Control",
+      "Monitor and Control Project Work"
+    ],
+    "correct_answer": "Develop Project Management Plan",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which output of the Define Activities process lists all scheduled activities and their attributes?",
+    "options": [
+      "Activity List",
+      "Activity Attributes",
+      "Milestone List",
+      "Work Breakdown Structure"
+    ],
+    "correct_answer": "Activity List",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "You are estimating resource requirements. Which tool helps you visualize staffing levels over time?",
+    "options": [
+      "Resource Breakdown Structure",
+      "Responsibility Assignment Matrix",
+      "Resource Histogram",
+      "Organizational Breakdown Structure"
+    ],
+    "correct_answer": "Resource Histogram",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A stakeholder has contradictory requirements compared to another stakeholder. What is the best way to address this conflict?",
+    "options": [
+      "Escalate to the sponsor immediately",
+      "Negotiate a compromise between stakeholders",
+      "Ignore one stakeholder’s requirements",
+      "Document both requirements and proceed"
+    ],
+    "correct_answer": "Negotiate a compromise between stakeholders",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which performance reporting tool compares planned vs. actual results and forecasts future performance?",
+    "options": [
+      "Earned Value Analysis",
+      "Trend Analysis",
+      "Variance Analysis",
+      "Dashboard Reports"
+    ],
+    "correct_answer": "Trend Analysis",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project team suggests an alternative approach mid-execution that could improve quality but increases cost. According to change control procedures, what should you do first?",
+    "options": [
+      "Implement the change immediately",
+      "Document the change request and analyze impacts",
+      "Reject the suggestion to maintain budget",
+      "Update the risk register"
+    ],
+    "correct_answer": "Document the change request and analyze impacts",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which technique in Plan Schedule Management involves analyzing activity sequences, durations, resource requirements, and schedule constraints to create the schedule model?",
+    "options": [
+      "Critical Path Method",
+      "Schedule Network Analysis",
+      "Resource Leveling",
+      "Fast Tracking"
+    ],
+    "correct_answer": "Schedule Network Analysis",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Given a project with three parallel activities A (duration 6 days), B (duration 4 days), and C (duration 5 days), what is the shortest possible project duration if all three start at the same time and converge before D?",
+    "options": [
+      "11 days",
+      "15 days",
+      "6 days",
+      "5 days"
+    ],
+    "correct_answer": "6 days",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your earned value data shows PV = \\$200,000, EV = \\$180,000, AC = \\$220,000. What are the Cost Variance (CV) and Schedule Variance (SV)?",
+    "options": [
+      "CV = –\\$40,000; SV = –\\$20,000",
+      "CV = –\\$20,000; SV = –\\$20,000",
+      "CV = –\\$40,000; SV = \\$20,000",
+      "CV = –\\$20,000; SV = \\$20,000"
+    ],
+    "correct_answer": "CV = –\\$40,000; SV = –\\$20,000",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which process involves finalizing all activities across all Process Groups to formally close the project or phase?",
+    "options": [
+      "Close Project or Phase",
+      "Monitor and Control Project Work",
+      "Perform Integrated Change Control",
+      "Control Scope"
+    ],
+    "correct_answer": "Close Project or Phase",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "During a vendor selection, you realize the lowest bid is 30% below estimate. Which should you do first?",
+    "options": [
+      "Accept the bid to save cost",
+      "Reject all bids and reissue RFP",
+      "Clarify with the vendor to verify accuracy",
+      "Adjust your budget to match the bid"
+    ],
+    "correct_answer": "Clarify with the vendor to verify accuracy",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A project’s defect rate falls outside acceptable quality limits. Which process should you perform immediately?",
+    "options": [
+      "Perform Integrated Change Control",
+      "Control Quality",
+      "Plan Quality Management",
+      "Manage Quality"
+    ],
+    "correct_answer": "Control Quality",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your Agile team cannot complete the Sprint Backlog due to unforeseen complexity. What is the most appropriate response?",
+    "options": [
+      "Extend the sprint until work is complete",
+      "Reprioritize remaining items into the next sprint",
+      "Add more resources to the current sprint",
+      "Cancel the sprint and start over"
+    ],
+    "correct_answer": "Reprioritize remaining items into the next sprint",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In a scenario where regulatory compliance changes mid-project, which document do you update to reflect new requirements and ensure traceability?",
+    "options": [
+      "Requirements Traceability Matrix",
+      "Quality Management Plan",
+      "Risk Register",
+      "Project Charter"
+    ],
+    "correct_answer": "Requirements Traceability Matrix",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Your project has a high-impact risk with no known mitigation strategy. What is the best risk response?",
+    "options": [
+      "Accept the risk",
+      "Exploit the risk",
+      "Avoid the risk",
+      "Monitor without action"
+    ],
+    "correct_answer": "Avoid the risk",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A stakeholder threatens negative publicity if a minor scope change is denied. As project manager, your first action is to:",
+    "options": [
+      "Document stakeholder threat and maintain current scope",
+      "Negotiate a compromise and assess impact",
+      "Escalate the threat to legal counsel",
+      "Approve the change to avoid conflict"
+    ],
+    "correct_answer": "Negotiate a compromise and assess impact",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Which Agile ceremony focuses on reviewing the product increment and planning next steps with stakeholders?",
+    "options": [
+      "Sprint Planning",
+      "Sprint Review",
+      "Sprint Retrospective",
+      "Daily Scrum"
+    ],
+    "correct_answer": "Sprint Review",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Your project schedule shows a resource overallocation on critical path activities. Which technique should you apply first?",
+    "options": [
+      "Crashing",
+      "Leads and Lags",
+      "Resource Smoothing",
+      "Resource Leveling"
+    ],
+    "correct_answer": "Resource Leveling",
+    "difficulty": "Hard"
+  }
+]
