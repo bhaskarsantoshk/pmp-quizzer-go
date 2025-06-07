@@ -1,1082 +1,1982 @@
 [
   {
-    "question": "What is the primary purpose of the Project Charter?",
-    "options": ["Defines detailed project scope", "Formally authorizes the project and appoints the project manager", "Schedules all project tasks", "Allocates specific resources to tasks"],
-    "correct_answer": "Formally authorizes the project and appoints the project manager",
+    "question": "During sprint planning, a team member suggests using a technique where the team estimates story points by having all members simultaneously reveal their estimates. What technique is being suggested?",
+    "options": [
+      "Planning poker",
+      "T-shirt sizing",
+      "Dot voting",
+      "Affinity estimating"
+    ],
+    "correct_answer": "Planning poker",
     "difficulty": "Easy"
   },
   {
-    "question": "Which process involves developing options and determining actions to enhance opportunities and reduce threats to project objectives?",
-    "options": ["Identify Risks", "Perform Qualitative Risk Analysis", "Plan Risk Responses", "Monitor Risks"],
-    "correct_answer": "Plan Risk Responses",
+    "question": "A project manager notices that team velocity has been declining over the past three sprints. What should be the first action?",
+    "options": [
+      "Increase sprint duration",
+      "Reduce story point estimates",
+      "Conduct a retrospective to identify impediments",
+      "Add more team members"
+    ],
+    "correct_answer": "Conduct a retrospective to identify impediments",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Scrum, who is responsible for ensuring that the Definition of Done is understood by the development team?",
+    "options": [
+      "Product Owner",
+      "Scrum Master",
+      "Development Team",
+      "Project Manager"
+    ],
+    "correct_answer": "Scrum Master",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the primary purpose of a retrospective meeting?",
+    "options": [
+      "Plan the next sprint",
+      "Review completed work",
+      "Identify process improvements",
+      "Estimate user stories"
+    ],
+    "correct_answer": "Identify process improvements",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A team member consistently misses daily standup meetings. As a servant leader, what should the Scrum Master do first?",
+    "options": [
+      "Report to senior management",
+      "Have a private conversation to understand the situation",
+      "Remove the member from the team",
+      "Document the behavior formally"
+    ],
+    "correct_answer": "Have a private conversation to understand the situation",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which conflict resolution technique involves finding a solution that provides some degree of satisfaction to all parties?",
+    "options": [
+      "Forcing",
+      "Smoothing",
+      "Compromising",
+      "Withdrawing"
+    ],
+    "correct_answer": "Compromising",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does 'shu-ha-ri' represent in the context of team development?",
+    "options": [
+      "Three types of user stories",
+      "Learning progression stages",
+      "Sprint phases",
+      "Risk categories"
+    ],
+    "correct_answer": "Learning progression stages",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A cross-functional team includes members from different departments. What is the main advantage of this structure?",
+    "options": [
+      "Reduced communication overhead",
+      "Faster decision making",
+      "Diverse perspectives and skills",
+      "Lower project costs"
+    ],
+    "correct_answer": "Diverse perspectives and skills",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In which team development stage do members start to resolve their differences and appreciate colleagues' strengths?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "correct_answer": "Norming",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the primary characteristic of a servant leader?",
+    "options": [
+      "Command and control approach",
+      "Focus on serving team needs",
+      "Micromanagement style",
+      "Authoritative decision making"
+    ],
+    "correct_answer": "Focus on serving team needs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which communication method is most effective for complex technical discussions?",
+    "options": [
+      "Email",
+      "Text message",
+      "Face-to-face meeting",
+      "Project dashboard"
+    ],
+    "correct_answer": "Face-to-face meeting",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is emotional intelligence primarily concerned with?",
+    "options": [
+      "Technical skills",
+      "Understanding and managing emotions",
+      "Financial analysis",
+      "Risk assessment"
+    ],
+    "correct_answer": "Understanding and managing emotions",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Agile, what does 'inspect and adapt' refer to?",
+    "options": [
+      "Code review process",
+      "Continuous improvement cycle",
+      "Quality assurance testing",
+      "Sprint planning activity"
+    ],
+    "correct_answer": "Continuous improvement cycle",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the main purpose of establishing team ground rules?",
+    "options": [
+      "Increase project budget",
+      "Set performance expectations",
+      "Reduce project scope",
+      "Extend project timeline"
+    ],
+    "correct_answer": "Set performance expectations",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which motivation theory suggests that people are motivated by achievement, affiliation, and power?",
+    "options": [
+      "Maslow's hierarchy",
+      "Herzberg's two-factor",
+      "McClelland's three needs",
+      "McGregor's Theory X/Y"
+    ],
+    "correct_answer": "McClelland's three needs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the recommended size for an optimal Scrum team?",
+    "options": [
+      "3-5 members",
+      "5-9 members",
+      "7-11 members",
+      "9-15 members"
+    ],
+    "correct_answer": "5-9 members",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In a distributed team environment, what is most critical for success?",
+    "options": [
+      "Same time zone",
+      "Identical skill levels",
+      "Strong communication protocols",
+      "Physical proximity"
+    ],
+    "correct_answer": "Strong communication protocols",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does psychological safety in a team environment primarily enable?",
+    "options": [
+      "Faster delivery",
+      "Lower costs",
+      "Open communication and risk-taking",
+      "Stricter control"
+    ],
+    "correct_answer": "Open communication and risk-taking",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which technique is most effective for building consensus in a diverse team?",
+    "options": [
+      "Majority voting",
+      "Executive decision",
+      "Facilitated discussion",
+      "Silent authority"
+    ],
+    "correct_answer": "Facilitated discussion",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the primary benefit of cross-training team members?",
+    "options": [
+      "Reduced project costs",
+      "Increased team flexibility",
+      "Faster project completion",
+      "Better quality deliverables"
+    ],
+    "correct_answer": "Increased team flexibility",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In adaptive leadership, what should a leader focus on when the team faces unprecedented challenges?",
+    "options": [
+      "Following established procedures",
+      "Experimenting and learning",
+      "Increasing oversight",
+      "Reducing team autonomy"
+    ],
+    "correct_answer": "Experimenting and learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the most effective way to handle a team member who consistently delivers poor quality work?",
+    "options": [
+      "Ignore the issue",
+      "Provide specific feedback and support",
+      "Reassign to easier tasks",
+      "Report to HR immediately"
+    ],
+    "correct_answer": "Provide specific feedback and support",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which characteristic best describes high-performing teams?",
+    "options": [
+      "Minimal communication",
+      "Individual accountability only",
+      "Shared accountability and trust",
+      "Strict hierarchy"
+    ],
+    "correct_answer": "Shared accountability and trust",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Your team is struggling with a complex technical decision that requires input from multiple experts. The stakeholders are pressuring for a quick resolution, but the technical team needs more time to evaluate options properly. As a project manager practicing servant leadership, what should you do?",
+    "options": [
+      "Make the decision yourself to meet stakeholder expectations",
+      "Facilitate a structured decision-making process while managing stakeholder expectations",
+      "Delegate the decision to the most senior technical expert",
+      "Escalate to the project sponsor for an immediate decision"
+    ],
+    "correct_answer": "Facilitate a structured decision-making process while managing stakeholder expectations",
     "difficulty": "Medium"
   },
   {
-    "question": "In Earned Value Management, what does a Schedule Performance Index (SPI) of 0.8 indicate?",
-    "options": ["Project is 20% ahead of schedule", "Project is 20% behind schedule", "Project is 80% complete", "Project budget is 80% consumed"],
-    "correct_answer": "Project is 20% behind schedule",
+    "question": "During a retrospective, you notice that the same improvement items appear repeatedly but are never addressed. The team seems frustrated with the lack of progress. What is the most effective approach to break this cycle?",
+    "options": [
+      "Stop holding retrospectives until leadership support improves",
+      "Focus on smaller, actionable improvement items with clear ownership",
+      "Escalate all improvement items to senior management",
+      "Change the retrospective format to prevent recurring discussions"
+    ],
+    "correct_answer": "Focus on smaller, actionable improvement items with clear ownership",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You're managing a hybrid team where some members work in an Agile manner while others follow traditional waterfall processes. The Agile team members are frustrated with the slower pace of decision-making from the waterfall team. How should you address this?",
+    "options": [
+      "Force all team members to adopt Agile practices",
+      "Create separate project tracks with minimal interaction",
+      "Establish integration points and communication protocols that respect both approaches",
+      "Replace waterfall team members with Agile-experienced staff"
+    ],
+    "correct_answer": "Establish integration points and communication protocols that respect both approaches",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A team member approaches you confidentially, expressing concerns about another team member's ethical behavior regarding expense reporting. As a project manager, what should be your immediate response?",
+    "options": [
+      "Investigate the matter personally and confront the accused team member",
+      "Advise the reporting team member to ignore the issue if it doesn't affect the project",
+      "Document the concern and follow organizational protocols for ethical violations",
+      "Ask the team member to provide more evidence before taking any action"
+    ],
+    "correct_answer": "Document the concern and follow organizational protocols for ethical violations",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your distributed team spans four time zones, and you've noticed that certain team members are consistently excluded from important decisions made during overlapping hours. What strategy would best address this inclusion challenge?",
+    "options": [
+      "Require all team members to adjust to the most convenient time zone",
+      "Rotate meeting times to ensure equal participation opportunities",
+      "Make all decisions asynchronously through collaboration tools",
+      "Create regional sub-teams with local decision-making authority"
+    ],
+    "correct_answer": "Rotate meeting times to ensure equal participation opportunities",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During sprint planning, your team consistently over-commits and fails to complete planned work. Despite multiple retrospectives addressing this issue, the pattern continues. What underlying issue should you investigate?",
+    "options": [
+      "Team members' technical competency levels",
+      "Pressure from stakeholders to commit to more work",
+      "Inadequate story point estimation processes",
+      "All of the above systematic factors"
+    ],
+    "correct_answer": "All of the above systematic factors",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You notice that a high-performing team member has become withdrawn and their work quality has declined recently. When you approach them, they mention feeling overwhelmed but are reluctant to discuss details. What is the most appropriate next step?",
+    "options": [
+      "Reduce their workload immediately without further discussion",
+      "Schedule a formal performance review to document the decline",
+      "Offer support resources and create a safe space for them to share concerns when ready",
+      "Inform the team about the situation to provide peer support"
+    ],
+    "correct_answer": "Offer support resources and create a safe space for them to share concerns when ready",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team is adopting a new technology that requires significant learning. Some team members are enthusiastic while others are resistant to change. How should you facilitate this transition?",
+    "options": [
+      "Mandate training for all team members with performance consequences",
+      "Create a volunteer-based pilot group to champion the new technology",
+      "Provide comprehensive training and pair resistant members with enthusiastic ones",
+      "Delay adoption until all team members are equally motivated"
+    ],
+    "correct_answer": "Provide comprehensive training and pair resistant members with enthusiastic ones",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In a matrix organization, one of your team members receives conflicting priorities from their functional manager and you as the project manager. The team member is stressed about disappointing either party. What should you do?",
+    "options": [
+      "Assert your authority as project manager and demand priority",
+      "Meet with the functional manager to negotiate and align priorities",
+      "Ask the team member to choose which work to prioritize",
+      "Escalate immediately to both managers' common superior"
+    ],
+    "correct_answer": "Meet with the functional manager to negotiate and align priorities",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team has been working together for eight months and has reached high performance levels. Recently, two new members joined, and you notice the team dynamics have shifted backward. What phenomenon is occurring, and how should you address it?",
+    "options": [
+      "The team is permanently disrupted; replace the new members",
+      "This is normal re-storming; facilitate integration activities",
+      "The new members lack skills; provide intensive training",
+      "The existing team is resistant; enforce acceptance"
+    ],
+    "correct_answer": "This is normal re-storming; facilitate integration activities",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During a project crisis, you observe that your typically collaborative team has become defensive and is starting to blame each other for issues. As a leader, what should be your immediate focus?",
+    "options": [
+      "Identify who is actually responsible for the problems",
+      "Separate team members to prevent further conflict",
+      "Refocus the team on collaborative problem-solving",
+      "Document all issues for post-project lessons learned"
+    ],
+    "correct_answer": "Refocus the team on collaborative problem-solving",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You're facilitating a negotiation between your development team and the quality assurance team regarding testing timelines. Both teams have valid concerns but opposing positions. What negotiation approach would be most effective?",
+    "options": [
+      "Support the team with the strongest technical argument",
+      "Find a middle ground that partially satisfies both teams",
+      "Focus on underlying interests and create value for both teams",
+      "Let the teams resolve the conflict without facilitation"
+    ],
+    "correct_answer": "Focus on underlying interests and create value for both teams",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team practices continuous improvement, but you've noticed that their improvement experiments sometimes fail and create temporary setbacks. Stakeholders are questioning the value of these experiments. How should you respond?",
+    "options": [
+      "Stop experimentation until team performance stabilizes",
+      "Continue experiments but implement only those with guaranteed success",
+      "Educate stakeholders on the value of learning from failures",
+      "Reduce the frequency of experiments to minimize risks"
+    ],
+    "correct_answer": "Educate stakeholders on the value of learning from failures",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A team member consistently provides innovative solutions but struggles with routine tasks and documentation. Other team members are frustrated with having to compensate for these weaknesses. How should you handle this situation?",
+    "options": [
+      "Focus on correcting the weaknesses through additional training",
+      "Leverage strengths while providing support structures for weaknesses",
+      "Reassign the team member to a role that only requires innovation",
+      "Set clear expectations that all team members must excel in all areas"
+    ],
+    "correct_answer": "Leverage strengths while providing support structures for weaknesses",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your organization is transitioning from predictive to Agile methodologies. Some team members embrace the change while others cling to traditional practices. As a change agent, what is your most important role?",
+    "options": [
+      "Enforce Agile compliance through performance metrics",
+      "Model Agile behaviors and support gradual adoption",
+      "Replace resistant team members with Agile enthusiasts",
+      "Allow teams to choose their preferred methodology"
+    ],
+    "correct_answer": "Model Agile behaviors and support gradual adoption",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During a daily standup, you notice that one team member consistently reports being blocked but never asks for help or provides specific details about the impediments. What should you do?",
+    "options": [
+      "Ignore the issue since it's the team member's responsibility",
+      "Publicly address the lack of detail during the standup",
+      "Privately coach the team member on effective impediment reporting",
+      "Remove the team member from future standups"
+    ],
+    "correct_answer": "Privately coach the team member on effective impediment reporting",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team is experiencing burnout due to sustained high-pressure delivery cycles. Management is resistant to reducing scope or extending timelines. What is the most sustainable approach to address this situation?",
+    "options": [
+      "Accept the situation as temporary and push through",
+      "Present data on productivity and quality risks to management",
+      "Implement team rotation to distribute the workload",
+      "Hire additional temporary staff to reduce individual burden"
+    ],
+    "correct_answer": "Present data on productivity and quality risks to management",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You're managing a team where two members have a personal conflict that's beginning to affect team morale and productivity. Both parties have asked you not to get involved. What should be your approach?",
+    "options": [
+      "Respect their wishes and avoid intervening",
+      "Facilitate a resolution session despite their request",
+      "Focus on the team impact and set clear behavioral expectations",
+      "Reassign one of the conflicting parties to another team"
+    ],
+    "correct_answer": "Focus on the team impact and set clear behavioral expectations",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team has developed strong technical skills but struggles with stakeholder communication and requirement clarification. This has led to rework and stakeholder dissatisfaction. What development approach would be most effective?",
+    "options": [
+      "Hire a dedicated business analyst to handle all stakeholder communication",
+      "Provide communication skills training for the entire team",
+      "Create structured templates and processes for stakeholder interactions",
+      "Both B and C to build capability and provide immediate support"
+    ],
+    "correct_answer": "Both B and C to build capability and provide immediate support",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A senior stakeholder frequently interrupts team members during demonstrations and dismisses their work without constructive feedback. This behavior is damaging team morale. As a servant leader, how should you address this?",
+    "options": [
+      "Ask team members to be more resilient and professional",
+      "Privately discuss professional behavior expectations with the stakeholder",
+      "Stop inviting the stakeholder to team demonstrations",
+      "Document the behavior and escalate to the stakeholder's manager"
+    ],
+    "correct_answer": "Privately discuss professional behavior expectations with the stakeholder",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team is working on a critical project with tight deadlines. You notice that team members are cutting corners on quality practices to meet schedules. What should be your immediate priority?",
+    "options": [
+      "Accept the quality trade-off to meet deadlines",
+      "Enforce quality practices regardless of schedule impact",
+      "Facilitate a team discussion on sustainable quality and schedule balance",
+      "Escalate the trade-off decision to project sponsors"
+    ],
+    "correct_answer": "Facilitate a team discussion on sustainable quality and schedule balance",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You're leading a global team with significant cultural diversity. Some team members from hierarchical cultures are reluctant to challenge ideas or provide honest feedback in group settings. How can you ensure all voices are heard?",
+    "options": [
+      "Enforce equal participation requirements for all team members",
+      "Create multiple feedback channels including anonymous options",
+      "Focus only on team members who are comfortable speaking up",
+      "Gradually change the team culture to be more direct"
+    ],
+    "correct_answer": "Create multiple feedback channels including anonymous options",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your Agile team has been consistently delivering value, but a new stakeholder joins who insists on detailed upfront planning and documentation. The team is concerned about losing their Agile practices. How should you navigate this situation?",
+    "options": [
+      "Comply with the stakeholder's requirements to maintain relationship",
+      "Educate the stakeholder on Agile values while finding compromise solutions",
+      "Continue Agile practices and ignore the stakeholder's concerns",
+      "Escalate to leadership to choose between Agile and stakeholder satisfaction"
+    ],
+    "correct_answer": "Educate the stakeholder on Agile values while finding compromise solutions",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During a complex technical discussion, you notice that junior team members are not contributing, while senior members dominate the conversation. You want to ensure all perspectives are considered. What facilitation technique would be most effective?",
+    "options": [
+      "Directly ask junior members to speak up",
+      "Use round-robin to ensure everyone contributes",
+      "Create small breakout groups before the larger discussion",
+      "Assign specific technical areas to junior members"
+    ],
+    "correct_answer": "Create small breakout groups before the larger discussion",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team practices pair programming, but one experienced developer consistently dominates sessions and doesn't allow partners to contribute meaningfully. This is affecting skill development and team dynamics. What coaching approach should you take?",
+    "options": [
+      "Pair the developer only with other experienced team members",
+      "Provide feedback on effective pair programming practices",
+      "Remove the developer from pair programming activities",
+      "Monitor all pair programming sessions more closely"
+    ],
+    "correct_answer": "Provide feedback on effective pair programming practices",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You're facilitating a retrospective where the team identifies systemic organizational issues beyond their control. Team members are becoming frustrated with their inability to create change. How should you guide the discussion?",
+    "options": [
+      "Focus only on items within the team's control",
+      "Document organizational issues for management review",
+      "Help the team identify influence strategies for systemic issues",
+      "Acknowledge frustration and focus on team sphere of influence"
+    ],
+    "correct_answer": "Acknowledge frustration and focus on team sphere of influence",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A key team member announces they will be leaving the organization in two months, right before a critical project milestone. The team is concerned about knowledge transfer and maintaining momentum. What should be your first priority?",
+    "options": [
+      "Immediately start recruiting a replacement",
+      "Begin comprehensive knowledge transfer activities",
+      "Reassess the project timeline and scope",
+      "Both B and C to ensure continuity and realistic planning"
+    ],
+    "correct_answer": "Both B and C to ensure continuity and realistic planning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your team includes both introverted and extroverted members. You notice that extroverted members often dominate team discussions and decision-making, while introverted members contribute less verbally but often have valuable insights. How can you create more inclusive team dynamics?",
+    "options": [
+      "Train introverted members to be more assertive",
+      "Limit extroverted members' participation time",
+      "Use varied communication methods and allow processing time",
+      "Accept that some people naturally contribute more than others"
+    ],
+    "correct_answer": "Use varied communication methods and allow processing time",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your organization is implementing a major cultural transformation toward greater collaboration and transparency. Your team is enthusiastic, but they're frustrated that other departments haven't embraced the changes. As a change champion, what should you focus on?",
+    "options": [
+      "Push other departments to adopt changes faster",
+      "Model desired behaviors and celebrate small wins within your sphere",
+      "Wait for organization-wide adoption before proceeding",
+      "Focus on protecting your team from organizational resistance"
+    ],
+    "correct_answer": "Model desired behaviors and celebrate small wins within your sphere",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During a high-stakes project review with senior executives, a team member makes a technical error in their presentation that could undermine confidence in the project. The executives haven't noticed yet. What should you do?",
+    "options": [
+      "Correct the error immediately and publicly",
+      "Let the presentation continue and address the error privately later",
+      "Signal the team member discreetly to correct themselves",
+      "Take over the presentation to prevent further errors"
+    ],
+    "correct_answer": "Signal the team member discreetly to correct themselves",
     "difficulty": "Hard"
   },
   {
-    "question": "A project manager discovers that a critical team member has been assigned to another high-priority project. The team member's skills are essential for a deliverable due in two weeks. What should the project manager do FIRST?",
-    "options": ["Update the risk register and implement contingency plans", "Negotiate with the other project manager for shared resources", "Escalate to the sponsor immediately", "Review the resource management plan and identify alternatives"],
-    "correct_answer": "Review the resource management plan and identify alternatives",
+    "question": "You're leading a team that needs to make a critical architectural decision with long-term implications. The team is split between two equally valid approaches, and stakeholders are pressuring for a quick decision. Technical experts are requesting more time for evaluation, but delays could impact market opportunities. How do you proceed?",
+    "options": [
+      "Make the decision yourself based on available information",
+      "Implement a time-boxed decision-making process with clear evaluation criteria",
+      "Choose the approach favored by the most senior technical expert",
+      "Present both options to stakeholders and let them decide"
+    ],
+    "correct_answer": "Implement a time-boxed decision-making process with clear evaluation criteria",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your team has been consistently high-performing, but you've recently noticed subtle signs of complacency: less rigorous testing, fewer innovative suggestions, and reduced collaboration with other teams. The team's delivery metrics remain strong. How should you address this emerging challenge?",
+    "options": [
+      "Introduce new performance challenges to re-energize the team",
+      "Implement stricter quality controls and monitoring",
+      "Facilitate team reflection on purpose and continuous improvement",
+      "Maintain status quo since metrics are still positive"
+    ],
+    "correct_answer": "Facilitate team reflection on purpose and continuous improvement",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A critical team member has been underperforming due to personal issues, but they're unwilling to discuss details or accept help. Their work quality is affecting team deliverables and other members are starting to express frustration. Organizational policies require documented performance improvement plans. How do you balance empathy with accountability?",
+    "options": [
+      "Prioritize team performance and initiate formal disciplinary procedures",
+      "Continue providing informal support while documenting performance impacts",
+      "Remove the team member from critical path activities while providing support",
+      "Implement formal performance improvement with enhanced support resources"
+    ],
+    "correct_answer": "Implement formal performance improvement with enhanced support resources",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your organization is undergoing a merger, creating uncertainty about future roles and project priorities. Team morale is declining, productivity is suffering, and rumors are affecting focus. You have limited information about the merger's impact. How do you lead effectively during this ambiguity?",
+    "options": [
+      "Share all available information, even if incomplete or speculative",
+      "Maintain focus on current work while acknowledging uncertainty",
+      "Escalate team concerns to senior leadership for immediate clarification",
+      "Create team stability by avoiding discussion of the merger"
+    ],
+    "correct_answer": "Maintain focus on current work while acknowledging uncertainty",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You discover that a team member has been providing confidential project information to competitors through a former colleague. The information hasn't caused direct damage yet, but the breach of trust is significant. The team member claims it was innocent networking. How do you handle this ethical violation?",
+    "options": [
+      "Provide additional training on confidentiality and monitor closely",
+      "Immediately escalate to legal and HR for investigation",
+      "Remove access to sensitive information while investigating internally",
+      "Document the incident and implement team-wide confidentiality training"
+    ],
+    "correct_answer": "Immediately escalate to legal and HR for investigation",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your team is working on a project where initial requirements have evolved significantly due to market changes. The original scope is no longer relevant, but stakeholders haven't formally approved the new direction. The team is caught between delivering obsolete functionality or working on unauthorized changes. What's your best course of action?",
+    "options": [
+      "Continue with original scope until formal approval is received",
+      "Document the situation and seek emergency stakeholder approval for new direction",
+      "Implement the evolved requirements since they better serve business needs",
+      "Split the team to work on both original and evolved requirements"
+    ],
+    "correct_answer": "Document the situation and seek emergency stakeholder approval for new direction",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You're managing a team where a senior member consistently undermines your leadership in subtle ways: questioning decisions in public forums, providing alternative direction to junior members, and expressing skepticism about project approaches. Their technical expertise is valuable, but their behavior is affecting team cohesion. How do you address this challenge?",
+    "options": [
+      "Publicly assert authority to establish clear leadership hierarchy",
+      "Have a direct conversation about professional behavior and its impact",
+      "Leverage their expertise by giving them more formal leadership responsibilities",
+      "Work around the individual while building support with other team members"
+    ],
+    "correct_answer": "Have a direct conversation about professional behavior and its impact",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your cross-functional team includes members from departments with conflicting priorities and different success metrics. These conflicts are creating tension and slowing decision-making. Team members are being pulled in different directions by their functional managers. What systemic approach would be most effective?",
+    "options": [
+      "Create clear project-specific success metrics that align all members",
+      "Negotiate with functional managers to align departmental priorities",
+      "Establish a decision-making framework that addresses conflicting priorities",
+      "Request dedicated team members who report only to the project"
+    ],
+    "correct_answer": "Establish a decision-making framework that addresses conflicting priorities",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "During a critical project phase, you learn that a key stakeholder has been making commitments to external parties based on overly optimistic project timelines that don't account for known risks. The team is unaware of these commitments, but meeting them would require unsustainable overtime and likely quality compromises. How do you handle this situation?",
+    "options": [
+      "Inform the team and push for accelerated delivery to meet commitments",
+      "Privately discuss realistic timelines with the stakeholder before involving the team",
+      "Present accurate project status to all stakeholders simultaneously",
+      "Focus on managing stakeholder expectations while protecting team sustainability"
+    ],
+    "correct_answer": "Privately discuss realistic timelines with the stakeholder before involving the team",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your team has developed innovative approaches that significantly improve project outcomes, but these methods deviate from organizational standards and could face resistance from governance bodies. The team is passionate about the innovations, but implementation could create compliance issues. How do you navigate this tension?",
+    "options": [
+      "Implement innovations quietly and address compliance issues later",
+      "Document benefits and seek formal approval for methodology changes",
+      "Revert to standard methods to ensure compliance",
+      "Create a pilot program to demonstrate innovation value"
+    ],
+    "correct_answer": "Document benefits and seek formal approval for methodology changes",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You're leading a team through a complex technical project where requirements are uncertain and evolving rapidly. The team is experiencing high stress due to constant changes, but stakeholders insist on maintaining aggressive timelines. Some team members are considering leaving the project. What leadership approach would be most effective?",
+    "options": [
+      "Shield the team from stakeholder pressure while negotiating realistic expectations",
+      "Implement stress management and team support programs",
+      "Rotate team members to prevent burnout while maintaining continuity",
+      "All of the above integrated approach"
+    ],
+    "correct_answer": "All of the above integrated approach",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A team member approaches you with concerns that another team member's code contributions have subtle quality issues that could lead to security vulnerabilities. The accused team member is well-respected and has seniority. The reporting team member asks you to keep their concerns confidential. How do you handle this sensitive technical and interpersonal situation?",
+    "options": [
+      "Investigate the code quality concerns independently before taking action",
+      "Facilitate a technical review process that addresses quality without targeting individuals",
+      "Honor confidentiality and privately mentor the team member with quality concerns",
+      "Implement systematic code review processes to address quality issues structurally"
+    ],
+    "correct_answer": "Implement systematic code review processes to address quality issues structurally",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your team is working in a highly regulated industry where compliance requirements are complex and evolving. A new regulation could significantly impact the project, but legal interpretation is unclear. The compliance team recommends stopping work until clarification is available, but business stakeholders want to continue based on current understanding. How do you proceed?",
+    "options": [
+      "Continue work based on current understanding while monitoring for updates",
+      "Stop all potentially affected work until legal clarification is obtained",
+      "Seek expedited legal opinion while implementing risk mitigation strategies",
+      "Document the uncertainty and let stakeholders make the risk decision"
+    ],
+    "correct_answer": "Seek expedited legal opinion while implementing risk mitigation strategies",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You're managing a virtual team across multiple time zones where collaboration has become increasingly challenging. Important decisions are being made in meetings that exclude certain team members due to time zone conflicts, creating feelings of exclusion and information gaps. Traditional rotation of meeting times isn't fully addressing the issue. What innovative approach would be most effective?",
+    "options": [
+      "Establish regional decision-making authority to reduce cross-timezone dependencies",
+      "Implement asynchronous decision-making processes with structured input periods",
+      "Create detailed documentation and recording systems for all decisions",
+      "Use artificial intelligence tools to provide real-time meeting translation and summary"
+    ],
+    "correct_answer": "Implement asynchronous decision-making processes with structured input periods",
     "difficulty": "Very Hard"
   },
   {
-    "question": "What is the key output of the Create WBS process?",
-    "options": ["Project Scope Statement", "WBS Dictionary", "Scope Baseline", "Requirements Documentation"],
-    "correct_answer": "Scope Baseline",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which estimating technique is most appropriate when there is limited information about the project?",
-    "options": ["Bottom-up estimating", "Parametric estimating", "Analogous estimating", "Three-point estimating"],
-    "correct_answer": "Analogous estimating",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the critical path in project scheduling?",
-    "options": ["The path with the most resources", "The longest path through the project network", "The path with the highest risk", "The path with the most stakeholders"],
-    "correct_answer": "The longest path through the project network",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which quality management technique helps identify the vital few causes that contribute to most problems?",
-    "options": ["Control Charts", "Pareto Analysis", "Fishbone Diagram", "Scatter Diagram"],
-    "correct_answer": "Pareto Analysis",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project has AC = $50,000, EV = $45,000, and PV = $40,000. What is the Cost Performance Index (CPI)?",
-    "options": ["0.8", "0.9", "1.1", "1.25"],
-    "correct_answer": "0.9",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "During project execution, a stakeholder requests a significant change that would improve the product but delay the project by three months. The project manager should:",
-    "options": ["Implement the change immediately", "Reject the change to maintain schedule", "Document the change request and route it through change control", "Negotiate a compromise solution"],
-    "correct_answer": "Document the change request and route it through change control",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What type of contract places the most risk on the seller?",
-    "options": ["Cost Plus Fixed Fee (CPFF)", "Fixed Price Incentive Fee (FPIF)", "Firm Fixed Price (FFP)", "Time and Materials (T&M)"],
-    "correct_answer": "Firm Fixed Price (FFP)",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "Which Agile framework emphasizes continuous flow and limiting work in progress?",
-    "options": ["Scrum", "Kanban", "Extreme Programming", "Feature Driven Development"],
-    "correct_answer": "Kanban",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "The process of aggregating the estimated costs of individual activities to establish an authorized cost baseline is called:",
-    "options": ["Estimate Costs", "Plan Cost Management", "Determine Budget", "Control Costs"],
-    "correct_answer": "Determine Budget",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project manager is leading a team spread across three time zones. What communication method would be MOST effective for daily updates?",
-    "options": ["Video conferences", "Email updates", "Collaborative project management tools", "Phone calls"],
-    "correct_answer": "Collaborative project management tools",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which stakeholder management strategy is appropriate for stakeholders with high power and high interest?",
-    "options": ["Monitor", "Keep Satisfied", "Keep Informed", "Manage Closely"],
-    "correct_answer": "Manage Closely",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the main difference between a risk and an issue?",
-    "options": ["Risks are positive, issues are negative", "Risks are uncertain events, issues have already occurred", "Risks are high probability, issues are low probability", "Risks affect schedule, issues affect budget"],
-    "correct_answer": "Risks are uncertain events, issues have already occurred",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "In which process group is the majority of the project budget typically spent?",
-    "options": ["Initiating", "Planning", "Executing", "Monitoring and Controlling"],
-    "correct_answer": "Executing",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project has a 30% probability of earning $100,000 and a 70% probability of losing $40,000. What is the Expected Monetary Value (EMV)?",
-    "options": ["$2,000", "$30,000", "($28,000)", "($58,000)"],
-    "correct_answer": "$2,000",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "Which tool is used to show the hierarchical breakdown of resources by category and type?",
-    "options": ["Organizational Breakdown Structure", "Resource Breakdown Structure", "Work Breakdown Structure", "Risk Breakdown Structure"],
-    "correct_answer": "Resource Breakdown Structure",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A team member consistently misses deadlines and produces low-quality work. The project manager has provided coaching and training, but performance hasn't improved. What should the project manager do next?",
-    "options": ["Remove the team member from the project", "Assign easier tasks to the team member", "Document performance issues and escalate to functional manager", "Reassign the team member's work to others"],
-    "correct_answer": "Document performance issues and escalate to functional manager",
+    "question": "Your organization is implementing a new performance management system that conflicts with your team's Agile values of collaboration and shared accountability. The system requires individual performance ratings and rankings that could undermine team dynamics. Senior leadership insists on compliance, but your team is expressing strong resistance. How do you navigate this complex organizational and cultural challenge?",
+    "options": [
+      "Comply with the system while coaching team members on maintaining collaboration",
+      "Negotiate alternative approaches that satisfy organizational needs and team values",
+      "Implement the system at a surface level while maintaining informal team practices",
+      "Present a detailed analysis of risks to organizational leadership"
+    ],
+    "correct_answer": "Negotiate alternative approaches that satisfy organizational needs and team values",
     "difficulty": "Very Hard"
   },
   {
-    "question": "What is the formula for calculating Schedule Performance Index (SPI)?",
-    "options": ["EV/AC", "AC/EV", "EV/PV", "PV/EV"],
-    "correct_answer": "EV/PV",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which process ensures that the project team has completed all work and that the project satisfies completion criteria?",
-    "options": ["Validate Scope", "Control Scope", "Close Project or Phase", "Control Quality"],
-    "correct_answer": "Validate Scope",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the primary benefit of using a parametric estimating technique?",
-    "options": ["It requires less historical data", "It provides more accurate estimates", "It's faster than other techniques", "It doesn't require expert judgment"],
-    "correct_answer": "It provides more accurate estimates",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "In Agile project management, what is a Sprint?",
-    "options": ["A high-priority requirement", "A fixed-length iteration", "A project milestone", "A risk mitigation strategy"],
-    "correct_answer": "A fixed-length iteration",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which procurement document is used to request proposals from prospective sellers?",
-    "options": ["Statement of Work", "Request for Proposal", "Purchase Order", "Contract"],
-    "correct_answer": "Request for Proposal",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project manager is managing a software development project using a hybrid approach. The requirements are well-defined, but the implementation technology is uncertain. What methodology combination would be MOST appropriate?",
-    "options": ["Waterfall planning with Kanban execution", "Agile planning with Waterfall execution", "Predictive planning with Agile execution", "Lean planning with Scrum execution"],
-    "correct_answer": "Predictive planning with Agile execution",
+    "question": "You discover that your team's innovative project approach, which has been highly successful, is being quietly undermined by a coalition of stakeholders who prefer traditional methods. They're using political influence to redirect resources and create obstacles. The team is unaware of this political dynamic. How do you protect your team and project while navigating organizational politics?",
+    "options": [
+      "Expose the political maneuvering to the team and rally them to fight back",
+      "Build counter-coalitions of supporters while shielding the team from politics",
+      "Adapt the project approach to address stakeholder concerns while maintaining core innovations",
+      "Escalate to senior leadership for organizational alignment"
+    ],
+    "correct_answer": "Build counter-coalitions of supporters while shielding the team from politics",
     "difficulty": "Very Hard"
   },
   {
-    "question": "What does a Monte Carlo simulation analyze in project management?",
-    "options": ["Resource optimization", "Schedule and cost risk", "Quality metrics", "Stakeholder engagement"],
-    "correct_answer": "Schedule and cost risk",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "Which of the following is NOT part of the triple constraint?",
-    "options": ["Scope", "Schedule", "Cost", "Quality"],
-    "correct_answer": "Quality",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the main purpose of the risk register?",
-    "options": ["To eliminate all project risks", "To document identified risks and response plans", "To calculate risk probabilities", "To assign risk owners"],
-    "correct_answer": "To document identified risks and response plans",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which communication model component represents potential barriers to effective communication?",
-    "options": ["Encoding", "Medium", "Noise", "Feedback"],
-    "correct_answer": "Noise",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project manager discovers that actual costs are exceeding the planned budget. The CPI is 0.85 and the SPI is 1.1. What does this indicate?",
-    "options": ["Project is ahead of schedule and over budget", "Project is behind schedule and over budget", "Project is ahead of schedule and under budget", "Project is behind schedule and under budget"],
-    "correct_answer": "Project is ahead of schedule and over budget",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "What is the purpose of a lessons learned register?",
-    "options": ["To document project failures", "To track project changes", "To capture knowledge for future projects", "To monitor team performance"],
-    "correct_answer": "To capture knowledge for future projects",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which quality control tool helps determine if a process is within acceptable limits?",
-    "options": ["Histogram", "Control Chart", "Scatter Diagram", "Flowchart"],
-    "correct_answer": "Control Chart",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "In stakeholder management, what does the acronym RACI represent?",
-    "options": ["Risk, Assumption, Constraint, Issue", "Responsible, Accountable, Consulted, Informed", "Requirements, Analysis, Communication, Implementation", "Resources, Activities, Communication, Integration"],
-    "correct_answer": "Responsible, Accountable, Consulted, Informed",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project has an EV of $100,000, AC of $120,000, and BAC of $200,000. What is the Estimate to Complete (ETC) using the CPI method?",
-    "options": ["$120,000", "$140,000", "$100,000", "$80,000"],
-    "correct_answer": "$120,000",
+    "question": "Your team is working on a project with significant ethical implications regarding user privacy and data usage. Team members have varying levels of comfort with the ethical aspects, and some are questioning whether they want to continue. Stakeholders are pressuring for delivery, and the work is technically legal but ethically ambiguous. How do you lead through this ethical complexity?",
+    "options": [
+      "Focus on legal compliance and let individual team members make their own ethical decisions",
+      "Facilitate team dialogue to establish collective ethical guidelines for the project",
+      "Seek external ethics consultation while supporting individual team member decisions",
+      "Escalate ethical concerns to organizational leadership for formal guidance"
+    ],
+    "correct_answer": "Facilitate team dialogue to establish collective ethical guidelines for the project",
     "difficulty": "Very Hard"
   },
   {
-    "question": "Which technique is used to compress the project schedule by performing activities in parallel that were originally planned in sequence?",
-    "options": ["Fast Tracking", "Crashing", "Resource Leveling", "Critical Chain Method"],
-    "correct_answer": "Fast Tracking",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the primary focus of the Direct and Manage Project Work process?",
-    "options": ["Creating the project management plan", "Performing work to accomplish project objectives", "Monitoring project performance", "Closing the project"],
-    "correct_answer": "Performing work to accomplish project objectives",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which risk response strategy involves shifting the negative impact of a threat to a third party?",
-    "options": ["Avoid", "Mitigate", "Transfer", "Accept"],
-    "correct_answer": "Transfer",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project team is experiencing frequent conflicts due to unclear roles and responsibilities. What document should the project manager review and update?",
-    "options": ["Project Charter", "Resource Management Plan", "Communications Management Plan", "Team Charter"],
-    "correct_answer": "Resource Management Plan",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "In Agile, what is the purpose of a retrospective meeting?",
-    "options": ["To plan the next iteration", "To review completed work with stakeholders", "To identify process improvements", "To estimate user stories"],
-    "correct_answer": "To identify process improvements",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which input is required for the Perform Integrated Change Control process?",
-    "options": ["Work Performance Data", "Change Requests", "Project Documents", "All of the above"],
-    "correct_answer": "All of the above",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A critical supplier has informed the project manager that a key component will be delayed by two weeks, impacting the critical path. What should the project manager do FIRST?",
-    "options": ["Update the project schedule immediately", "Find an alternative supplier", "Assess the impact on project objectives", "Inform the project sponsor"],
-    "correct_answer": "Assess the impact on project objectives",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "What is the purpose of configuration management in project integration?",
-    "options": ["To manage project costs", "To control changes to deliverables", "To schedule project activities", "To manage stakeholder expectations"],
-    "correct_answer": "To control changes to deliverables",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which estimation technique uses optimistic, pessimistic, and most likely estimates?",
-    "options": ["Analogous estimating", "Parametric estimating", "Three-point estimating", "Bottom-up estimating"],
-    "correct_answer": "Three-point estimating",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the primary difference between verification and validation in quality management?",
-    "options": ["Verification is done by the customer, validation by the team", "Verification checks conformance to requirements, validation checks fitness for use", "Verification is qualitative, validation is quantitative", "There is no difference"],
-    "correct_answer": "Verification checks conformance to requirements, validation checks fitness for use",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "A project manager is leading a virtual team across multiple countries. Cultural differences are causing communication issues. What should be the PRIMARY approach?",
-    "options": ["Mandate English as the only communication language", "Hire local translators for each location", "Develop cultural awareness and adapt communication styles", "Schedule all meetings during overlapping business hours"],
-    "correct_answer": "Develop cultural awareness and adapt communication styles",
+    "question": "You're leading a critical project where artificial intelligence is being used to augment team decision-making. Some team members embrace AI assistance while others are skeptical or feel threatened by it. The AI is providing valuable insights but occasionally offers recommendations that contradict human expertise. How do you integrate AI effectively while maintaining team cohesion and human judgment?",
+    "options": [
+      "Mandate AI usage with human oversight protocols",
+      "Allow voluntary AI adoption based on individual comfort levels",
+      "Establish AI governance frameworks with clear human decision authority",
+      "Create AI literacy programs while respecting individual adoption preferences"
+    ],
+    "correct_answer": "Establish AI governance frameworks with clear human decision authority",
     "difficulty": "Very Hard"
   },
   {
-    "question": "What is the purpose of a project management information system (PMIS)?",
-    "options": ["To replace the project manager", "To automate all project processes", "To provide tools for managing project information", "To eliminate project documentation"],
-    "correct_answer": "To provide tools for managing project information",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which process involves systematically identifying stakeholders throughout the project lifecycle?",
-    "options": ["Plan Stakeholder Engagement", "Manage Stakeholder Engagement", "Identify Stakeholders", "Monitor Stakeholder Engagement"],
-    "correct_answer": "Identify Stakeholders",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project has a variance at completion (VAC) of $10,000. What does this indicate?",
-    "options": ["The project will cost $10,000 more than planned", "The project will cost $10,000 less than planned", "The project is $10,000 over budget currently", "The project needs $10,000 more funding"],
-    "correct_answer": "The project will cost $10,000 more than planned",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "What is the main benefit of using a decision tree in risk analysis?",
-    "options": ["It identifies all possible risks", "It calculates exact probability values", "It helps choose between alternative courses of action", "It eliminates the need for expert judgment"],
-    "correct_answer": "It helps choose between alternative courses of action",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "In procurement management, what is the purpose of a bidder conference?",
-    "options": ["To select the winning bidder", "To negotiate contract terms", "To ensure all bidders have the same understanding", "To evaluate proposals"],
-    "correct_answer": "To ensure all bidders have the same understanding",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A team member approaches the project manager with an innovative idea that could significantly improve the product but requires additional time and budget. The project is currently on track. What should the project manager do?",
-    "options": ["Implement the idea immediately", "Reject the idea to avoid scope creep", "Evaluate the idea through the change control process", "Save the idea for the next project"],
-    "correct_answer": "Evaluate the idea through the change control process",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which Agile ceremony focuses on planning work for the upcoming iteration?",
-    "options": ["Daily Standup", "Sprint Planning", "Sprint Review", "Sprint Retrospective"],
-    "correct_answer": "Sprint Planning",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the purpose of a project scope statement?",
-    "options": ["To authorize the project", "To define what is included and excluded from the project", "To estimate project costs", "To identify project risks"],
-    "correct_answer": "To define what is included and excluded from the project",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which scheduling technique considers resource limitations when developing the schedule?",
-    "options": ["Critical Path Method", "Critical Chain Method", "Program Evaluation and Review Technique", "Precedence Diagramming Method"],
-    "correct_answer": "Critical Chain Method",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "A project manager discovers that two team members have different interpretations of a requirement. What should be done FIRST?",
-    "options": ["Choose the interpretation from the senior team member", "Consult the requirements documentation", "Ask the sponsor to clarify", "Schedule a meeting with both team members"],
-    "correct_answer": "Consult the requirements documentation",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the primary purpose of a communication management plan?",
-    "options": ["To define team meeting schedules", "To specify communication requirements and methods", "To identify all project stakeholders", "To establish reporting relationships"],
-    "correct_answer": "To specify communication requirements and methods",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "In earned value management, what does a positive Cost Variance (CV) indicate?",
-    "options": ["Project is over budget", "Project is under budget", "Project is ahead of schedule", "Project is behind schedule"],
-    "correct_answer": "Project is under budget",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which quality management principle emphasizes preventing defects rather than detecting them?",
-    "options": ["Continuous improvement", "Customer satisfaction", "Prevention over inspection", "Management responsibility"],
-    "correct_answer": "Prevention over inspection",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project manager is working on a complex project with high uncertainty. Multiple approaches could work, but the optimal solution is unclear. What project management approach is MOST appropriate?",
-    "options": ["Predictive approach with detailed planning", "Agile approach with iterative discovery", "Hybrid approach with staged gates", "Lean approach with minimal planning"],
-    "correct_answer": "Agile approach with iterative discovery",
+    "question": "Your organization is experiencing rapid growth, and your high-performing team is being asked to mentor multiple new teams while maintaining their current workload. The knowledge transfer is crucial for organizational scaling, but your team is showing signs of burnout and reduced performance. Senior leadership views this as a temporary sacrifice for long-term benefit. How do you balance organizational needs with team sustainability?",
+    "options": [
+      "Negotiate reduced project scope to accommodate mentoring responsibilities",
+      "Implement structured knowledge transfer programs that distribute mentoring load",
+      "Request additional resources and time for both mentoring and project work",
+      "Create self-sustaining mentoring systems that reduce ongoing team involvement"
+    ],
+    "correct_answer": "Create self-sustaining mentoring systems that reduce ongoing team involvement",
     "difficulty": "Very Hard"
   },
   {
-    "question": "What is the main difference between a program and a project?",
-    "options": ["Programs are larger than projects", "Programs consist of related projects managed in a coordinated way", "Programs have longer durations", "Programs require more resources"],
-    "correct_answer": "Programs consist of related projects managed in a coordinated way",
+    "question": "You're managing a team working on a project that could significantly disrupt existing business models within your organization. Some stakeholders are excited about innovation while others are actively sabotaging the effort to protect their interests. Your team is caught in the middle and becoming demoralized by organizational resistance. How do you lead innovation in a hostile environment?",
+    "options": [
+      "Focus on building gradual consensus before proceeding with disruptive changes",
+      "Create protected innovation spaces while building stakeholder support",
+      "Accelerate the project to demonstrate value before resistance can organize",
+      "Reframe the project to appear less disruptive while maintaining core innovation"
+    ],
+    "correct_answer": "Create protected innovation spaces while building stakeholder support",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Your team has developed breakthrough solutions that could revolutionize your industry, but implementation would require massive organizational change. The solutions challenge fundamental assumptions about how work should be done. Leadership is excited about potential benefits but concerned about risks. Your team is passionate but naive about organizational change complexity. How do you bridge this gap?",
+    "options": [
+      "Focus on technical excellence and let others handle organizational change",
+      "Develop comprehensive change management strategies alongside technical solutions",
+      "Implement pilot programs to demonstrate value before organization-wide changes",
+      "Partner with change management experts while maintaining team technical focus"
+    ],
+    "correct_answer": "Partner with change management experts while maintaining team technical focus",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "What is the primary purpose of the project charter?",
+    "options": [
+      "Define detailed project requirements",
+      "Authorize the project and provide high-level information",
+      "Create the work breakdown structure",
+      "Establish the project budget"
+    ],
+    "correct_answer": "Authorize the project and provide high-level information",
     "difficulty": "Easy"
-  },
-  {
-    "question": "Which technique helps identify potential failure modes and their effects?",
-    "options": ["Root Cause Analysis", "Failure Mode and Effect Analysis", "Ishikawa Diagram", "Pareto Analysis"],
-    "correct_answer": "Failure Mode and Effect Analysis",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "A project manager receives a change request that would add significant value but also increase costs by 15%. The project sponsor must approve any changes over 10%. What should the project manager do?",
-    "options": ["Approve the change since it adds value", "Reject the change due to cost increase", "Prepare a detailed impact analysis for sponsor review", "Implement the change partially to stay under 10%"],
-    "correct_answer": "Prepare a detailed impact analysis for sponsor review",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the purpose of decomposition in the Create WBS process?",
-    "options": ["To estimate activity durations", "To break down work packages into activities", "To subdivide project deliverables into smaller components", "To identify project dependencies"],
-    "correct_answer": "To subdivide project deliverables into smaller components",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which contract type is most appropriate when the scope is well-defined and risks are low?",
-    "options": ["Cost Plus Fixed Fee", "Time and Materials", "Fixed Price", "Cost Plus Incentive Fee"],
-    "correct_answer": "Fixed Price",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "In Agile project management, what is the role of a Product Owner?",
-    "options": ["To manage the development team", "To define and prioritize requirements", "To facilitate team meetings", "To perform quality assurance"],
-    "correct_answer": "To define and prioritize requirements",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the primary purpose of resource leveling?",
-    "options": ["To reduce project duration", "To minimize resource conflicts", "To reduce project costs", "To improve quality"],
-    "correct_answer": "To minimize resource conflicts",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A key stakeholder is consistently unavailable for important project decisions, causing delays. The project manager should:",
-    "options": ["Make decisions without the stakeholder", "Escalate to the project sponsor", "Identify an alternate decision maker", "Document the risk and continue"],
-    "correct_answer": "Identify an alternate decision maker",
-    "difficulty": "Hard"
   },
   {
     "question": "Which process group includes the Develop Project Charter process?",
-    "options": ["Planning", "Initiating", "Executing", "Monitoring and Controlling"],
+    "options": [
+      "Planning",
+      "Executing",
+      "Initiating",
+      "Controlling"
+    ],
     "correct_answer": "Initiating",
     "difficulty": "Easy"
   },
   {
-    "question": "What is the purpose of a risk breakdown structure (RBS)?",
-    "options": ["To calculate risk probabilities", "To categorize risks by source", "To prioritize risks", "To assign risk owners"],
-    "correct_answer": "To categorize risks by source",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project manager is managing a project where requirements are frequently changing. What lifecycle approach would be MOST appropriate?",
-    "options": ["Predictive", "Iterative", "Incremental", "Adaptive"],
-    "correct_answer": "Adaptive",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which tool is used to show the logical relationships between project activities?",
-    "options": ["Gantt Chart", "Network Diagram", "Histogram", "Scatter Diagram"],
-    "correct_answer": "Network Diagram",
+    "question": "What is the main output of the Define Scope process?",
+    "options": [
+      "Project scope statement",
+      "Scope baseline",
+      "WBS dictionary",
+      "Requirements documentation"
+    ],
+    "correct_answer": "Project scope statement",
     "difficulty": "Easy"
   },
   {
-    "question": "What is the main benefit of conducting regular stakeholder engagement assessments?",
-    "options": ["To reduce project costs", "To identify communication gaps", "To accelerate project delivery", "To eliminate stakeholder conflicts"],
-    "correct_answer": "To identify communication gaps",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project has an SPI of 0.9 and CPI of 1.1. The project manager should be MOST concerned about:",
-    "options": ["Cost overruns", "Schedule delays", "Quality issues", "Resource conflicts"],
-    "correct_answer": "Schedule delays",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "Which quality management tool helps identify the relationship between two variables?",
-    "options": ["Control Chart", "Pareto Diagram", "Scatter Diagram", "Histogram"],
-    "correct_answer": "Scatter Diagram",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the purpose of a project management plan?",
-    "options": ["To authorize the project", "To define how the project is executed, monitored, and controlled", "To document project requirements", "To identify project stakeholders"],
-    "correct_answer": "To define how the project is executed, monitored, and controlled",
+    "question": "Which technique is used to decompose the project scope into smaller, manageable components?",
+    "options": [
+      "Expert judgment",
+      "Decomposition",
+      "Rolling wave planning",
+      "Progressive elaboration"
+    ],
+    "correct_answer": "Decomposition",
     "difficulty": "Easy"
   },
   {
-    "question": "In procurement management, what is the buyer's primary concern in a Cost Plus contract?",
-    "options": ["Fixed delivery date", "Cost control", "Quality assurance", "Scope definition"],
-    "correct_answer": "Cost control",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project team member reports that a critical component may not meet quality standards. The component is on the critical path and any delay would impact the project deadline. What should the project manager do FIRST?",
-    "options": ["Accept the component as-is to avoid delays", "Investigate the quality concern thoroughly", "Find an alternative component immediately", "Crash the schedule to make up time later"],
-    "correct_answer": "Investigate the quality concern thoroughly",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "What is the primary purpose of scope validation?",
-    "options": ["To ensure scope is properly defined", "To obtain formal acceptance of deliverables", "To control scope changes", "To decompose project scope"],
-    "correct_answer": "To obtain formal acceptance of deliverables",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which Agile principle emphasizes responding to change over following a plan?",
-    "options": ["Individuals over processes", "Working software over documentation", "Customer collaboration over contracts", "Responding to change over following a plan"],
-    "correct_answer": "Responding to change over following a plan",
+    "question": "What does the critical path represent in a project schedule?",
+    "options": [
+      "The most expensive sequence of activities",
+      "The longest sequence of activities that determines project duration",
+      "The sequence with the highest risk",
+      "The sequence requiring the most resources"
+    ],
+    "correct_answer": "The longest sequence of activities that determines project duration",
     "difficulty": "Easy"
   },
   {
-    "question": "What is the purpose of a responsibility assignment matrix (RAM)?",
-    "options": ["To estimate activity resources", "To show project organization structure", "To map work packages to responsible parties", "To schedule project activities"],
-    "correct_answer": "To map work packages to responsible parties",
+    "question": "Which estimating technique uses historical data from similar projects?",
+    "options": [
+      "Bottom-up estimating",
+      "Parametric estimating",
+      "Analogous estimating",
+      "Three-point estimating"
+    ],
+    "correct_answer": "Analogous estimating",
     "difficulty": "Easy"
   },
   {
-    "question": "A project manager is dealing with a conflict between two team members who have different technical approaches. Both approaches are viable. What conflict resolution technique should be used?",
-    "options": ["Forcing", "Smoothing", "Compromising", "Collaborating"],
-    "correct_answer": "Collaborating",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "Which earned value measurement indicates the project's cost efficiency?",
-    "options": ["Schedule Performance Index", "Cost Performance Index", "Budget at Completion", "Estimate at Completion"],
-    "correct_answer": "Cost Performance Index",
+    "question": "What is the purpose of a project risk register?",
+    "options": [
+      "Track project costs",
+      "Document identified risks and their analysis",
+      "Monitor schedule progress",
+      "Record quality metrics"
+    ],
+    "correct_answer": "Document identified risks and their analysis",
     "difficulty": "Easy"
   },
   {
-    "question": "What is the primary focus of the Monitor and Control Project Work process?",
-    "options": ["Creating project deliverables", "Tracking project performance", "Managing project team", "Communicating with stakeholders"],
-    "correct_answer": "Tracking project performance",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A multinational project team is struggling with different holiday schedules and work practices. What should the project manager include in the resource management plan?",
-    "options": ["Mandatory working hours for all team members", "Cultural considerations and local practices", "English-only communication requirements", "Centralized decision-making process"],
-    "correct_answer": "Cultural considerations and local practices",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "Which risk analysis technique uses probability distributions for cost and schedule elements?",
-    "options": ["Sensitivity Analysis", "Monte Carlo Simulation", "Decision Tree Analysis", "Influence Diagrams"],
-    "correct_answer": "Monte Carlo Simulation",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "What is the main purpose of the project charter?",
-    "options": ["To define detailed project requirements", "To formally authorize the project", "To estimate project costs", "To schedule project activities"],
-    "correct_answer": "To formally authorize the project",
+    "question": "In Agile projects, what is the purpose of a product backlog?",
+    "options": [
+      "Track completed work",
+      "Prioritize features and requirements",
+      "Document project risks",
+      "Monitor team performance"
+    ],
+    "correct_answer": "Prioritize features and requirements",
     "difficulty": "Easy"
   },
   {
-    "question": "In Agile, what is the purpose of user stories?",
-    "options": ["To document system architecture", "To capture requirements from user perspective", "To define project milestones", "To estimate project duration"],
-    "correct_answer": "To capture requirements from user perspective",
+    "question": "What is the main difference between a project and operations?",
+    "options": [
+      "Projects are longer than operations",
+      "Projects are temporary and unique, operations are ongoing",
+      "Projects cost more than operations",
+      "Projects require more people than operations"
+    ],
+    "correct_answer": "Projects are temporary and unique, operations are ongoing",
     "difficulty": "Easy"
   },
   {
-    "question": "A project manager discovers that the project's critical path has changed due to a delayed activity. What should be done FIRST?",
-    "options": ["Crash the new critical path", "Update the project schedule", "Analyze the impact on project objectives", "Inform all stakeholders"],
-    "correct_answer": "Analyze the impact on project objectives",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the purpose of a stakeholder engagement plan?",
-    "options": ["To identify all stakeholders", "To define strategies for stakeholder involvement", "To eliminate negative stakeholders", "To assign stakeholder roles"],
-    "correct_answer": "To define strategies for stakeholder involvement",
+    "question": "Which process creates the work breakdown structure (WBS)?",
+    "options": [
+      "Define Scope",
+      "Create WBS",
+      "Collect Requirements",
+      "Plan Scope Management"
+    ],
+    "correct_answer": "Create WBS",
     "difficulty": "Easy"
   },
   {
-    "question": "Which procurement document legally binds the seller to provide specified products or services?",
-    "options": ["Statement of Work", "Request for Proposal", "Contract", "Purchase Requisition"],
-    "correct_answer": "Contract",
+    "question": "What is the purpose of quality assurance?",
+    "options": [
+      "Inspect deliverables for defects",
+      "Prevent defects through process improvement",
+      "Test the final product",
+      "Document quality metrics"
+    ],
+    "correct_answer": "Prevent defects through process improvement",
     "difficulty": "Easy"
   },
   {
-    "question": "A project manager is leading a software development project where customer requirements are unclear and likely to evolve. The customer wants to see working software early and provide feedback. What approach should be used?",
-    "options": ["Waterfall with detailed requirements analysis", "Agile with iterative development", "Spiral with risk management focus", "Lean with waste elimination"],
-    "correct_answer": "Agile with iterative development",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the primary purpose of quality assurance?",
-    "options": ["To inspect deliverables for defects", "To prevent defects through process improvement", "To test final products", "To measure customer satisfaction"],
-    "correct_answer": "To prevent defects through process improvement",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which estimating technique involves estimating individual work packages and aggregating them?",
-    "options": ["Analogous estimating", "Parametric estimating", "Bottom-up estimating", "Three-point estimating"],
-    "correct_answer": "Bottom-up estimating",
+    "question": "Which communication method provides the richest information exchange?",
+    "options": [
+      "Email",
+      "Phone call",
+      "Face-to-face conversation",
+      "Written report"
+    ],
+    "correct_answer": "Face-to-face conversation",
     "difficulty": "Easy"
   },
   {
-    "question": "A critical team member has resigned in the middle of the project. The person possessed unique technical knowledge essential for project success. What should the project manager do FIRST?",
-    "options": ["Hire a replacement immediately", "Reassign the work to other team members", "Assess the impact and identify knowledge transfer needs", "Request project schedule extension"],
-    "correct_answer": "Assess the impact and identify knowledge transfer needs",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "What is the purpose of configuration management?",
-    "options": ["To manage project costs", "To control changes to products and documentation", "To schedule project activities", "To allocate resources"],
-    "correct_answer": "To control changes to products and documentation",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which communication method is most appropriate for complex, detailed information?",
-    "options": ["Verbal", "Written", "Nonverbal", "Visual"],
-    "correct_answer": "Written",
+    "question": "What is the primary purpose of the project management plan?",
+    "options": [
+      "Get project approval",
+      "Guide project execution and control",
+      "Communicate with stakeholders",
+      "Document lessons learned"
+    ],
+    "correct_answer": "Guide project execution and control",
     "difficulty": "Easy"
   },
   {
-    "question": "In risk management, what is a secondary risk?",
-    "options": ["A risk with low probability", "A risk that is less important", "A risk that results from implementing a risk response", "A risk identified late in the project"],
-    "correct_answer": "A risk that results from implementing a risk response",
-    "difficulty": "Hard"
-  },
-  {
-    "question": "What is the main output of the Collect Requirements process?",
-    "options": ["Project Scope Statement", "Requirements Documentation", "WBS Dictionary", "Scope Baseline"],
-    "correct_answer": "Requirements Documentation",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project has multiple suppliers delivering different components. One supplier is consistently late with deliveries. What should the project manager do?",
-    "options": ["Terminate the contract immediately", "Accept delays and adjust the schedule", "Work with supplier to understand and resolve issues", "Find a backup supplier for future deliveries"],
-    "correct_answer": "Work with supplier to understand and resolve issues",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "In Agile project management, what is velocity?",
-    "options": ["The speed of development", "The number of defects found", "The amount of work completed per iteration", "The rate of requirement changes"],
-    "correct_answer": "The amount of work completed per iteration",
+    "question": "In the context of procurement, what is a statement of work (SOW)?",
+    "options": [
+      "A list of project deliverables",
+      "A detailed description of work to be performed",
+      "A contract template",
+      "A vendor evaluation criteria"
+    ],
+    "correct_answer": "A detailed description of work to be performed",
     "difficulty": "Easy"
   },
   {
-    "question": "Which process involves comparing actual project performance with the project management plan?",
-    "options": ["Direct and Manage Project Work", "Monitor and Control Project Work", "Perform Integrated Change Control", "Close Project or Phase"],
+    "question": "What is the difference between accuracy and precision in project measurements?",
+    "options": [
+      "Accuracy is how close to the correct value, precision is how repeatable",
+      "They are the same concept",
+      "Precision is more important than accuracy",
+      "Accuracy applies only to cost, precision to schedule"
+    ],
+    "correct_answer": "Accuracy is how close to the correct value, precision is how repeatable",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which process is performed to track, review, and regulate project progress?",
+    "options": [
+      "Monitor and Control Project Work",
+      "Direct and Manage Project Work",
+      "Manage Project Knowledge",
+      "Control Scope"
+    ],
     "correct_answer": "Monitor and Control Project Work",
     "difficulty": "Easy"
   },
   {
-    "question": "What is the purpose of a decision tree in project management?",
-    "options": ["To organize project tasks", "To analyze multiple decision alternatives", "To identify project risks", "To estimate project costs"],
-    "correct_answer": "To analyze multiple decision alternatives",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project manager is working with a distributed team across different time zones. Team members frequently miss important communications and decisions are delayed. What approach would be MOST effective?",
-    "options": ["Schedule all meetings in one time zone", "Use only asynchronous communication", "Implement a communication protocol with defined response times", "Hire local coordinators for each location"],
-    "correct_answer": "Implement a communication protocol with defined response times",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Which quality management tool displays data in time order to show trends?",
-    "options": ["Histogram", "Pareto Chart", "Control Chart", "Scatter Diagram"],
-    "correct_answer": "Control Chart",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the primary purpose of a project kickoff meeting?",
-    "options": ["To celebrate project approval", "To align team understanding of project objectives", "To collect detailed requirements", "To estimate project costs"],
-    "correct_answer": "To align team understanding of project objectives",
+    "question": "What is a project constraint?",
+    "options": [
+      "A project requirement",
+      "A limiting factor that affects project execution",
+      "A project deliverable",
+      "A quality standard"
+    ],
+    "correct_answer": "A limiting factor that affects project execution",
     "difficulty": "Easy"
   },
   {
-    "question": "In earned value management, if EV = $100K, AC = $110K, and PV = $90K, what is the Cost Variance (CV)?",
-    "options": ["$10K", "-$10K", "$20K", "-$20K"],
-    "correct_answer": "-$10K",
+    "question": "In Agile, what is the purpose of a sprint review?",
+    "options": [
+      "Plan the next sprint",
+      "Inspect the increment and adapt the product backlog",
+      "Review team performance",
+      "Identify process improvements"
+    ],
+    "correct_answer": "Inspect the increment and adapt the product backlog",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the purpose of stakeholder engagement assessment matrix?",
+    "options": [
+      "Identify all stakeholders",
+      "Compare current and desired engagement levels",
+      "Document stakeholder requirements",
+      "Track stakeholder communication"
+    ],
+    "correct_answer": "Compare current and desired engagement levels",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which knowledge area includes the Close Project or Phase process?",
+    "options": [
+      "Project Scope Management",
+      "Project Integration Management",
+      "Project Resource Management",
+      "Project Communications Management"
+    ],
+    "correct_answer": "Project Integration Management",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the main purpose of the lessons learned register?",
+    "options": [
+      "Track project costs",
+      "Capture knowledge for future projects",
+      "Monitor team performance",
+      "Document project scope"
+    ],
+    "correct_answer": "Capture knowledge for future projects",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In risk management, what does risk appetite refer to?",
+    "options": [
+      "The amount of risk an organization is willing to accept",
+      "The probability of risk occurrence",
+      "The impact of identified risks",
+      "The cost of risk mitigation"
+    ],
+    "correct_answer": "The amount of risk an organization is willing to accept",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the primary difference between a milestone and a deliverable?",
+    "options": [
+      "Milestones cost money, deliverables don't",
+      "Milestones are points in time, deliverables are tangible outputs",
+      "There is no difference",
+      "Milestones are internal, deliverables are external"
+    ],
+    "correct_answer": "Milestones are points in time, deliverables are tangible outputs",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which technique helps identify the root cause of quality problems?",
+    "options": [
+      "Pareto diagram",
+      "Fishbone diagram",
+      "Control chart",
+      "Histogram"
+    ],
+    "correct_answer": "Fishbone diagram",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the purpose of a project scope baseline?",
+    "options": [
+      "Estimate project costs",
+      "Provide a reference for scope changes",
+      "Identify project risks",
+      "Plan project resources"
+    ],
+    "correct_answer": "Provide a reference for scope changes",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Earned Value Management, what does Schedule Performance Index (SPI) measure?",
+    "options": [
+      "Cost efficiency",
+      "Schedule efficiency",
+      "Quality performance",
+      "Resource utilization"
+    ],
+    "correct_answer": "Schedule efficiency",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the main purpose of configuration management?",
+    "options": [
+      "Manage project team assignments",
+      "Control changes to project deliverables",
+      "Track project schedules",
+      "Monitor project costs"
+    ],
+    "correct_answer": "Control changes to project deliverables",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Your project team is developing a complex software system with multiple interdependent modules. During the Create WBS process, you discover that some work packages cannot be estimated accurately due to emerging technology requirements. What approach should you use to handle this uncertainty?",
+    "options": [
+      "Delay WBS creation until all requirements are clear",
+      "Use rolling wave planning for uncertain work packages",
+      "Assign arbitrary estimates to maintain schedule",
+      "Escalate to sponsor for additional time"
+    ],
+    "correct_answer": "Use rolling wave planning for uncertain work packages",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a project where the customer requests frequent changes to requirements. These changes are impacting both schedule and budget. The customer argues that their requests are clarifications, not changes. How should you address this situation?",
+    "options": [
+      "Implement all customer requests to maintain relationship",
+      "Use the integrated change control process for all modifications",
+      "Refuse any changes after project initiation",
+      "Charge the customer for all modification work"
+    ],
+    "correct_answer": "Use the integrated change control process for all modifications",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During project execution, you notice that the team's velocity in completing story points has decreased over the last three iterations, despite no changes in team composition or external factors. What should be your first step in addressing this issue?",
+    "options": [
+      "Increase the team size to compensate for reduced velocity",
+      "Conduct a retrospective to identify underlying causes",
+      "Reduce the scope of future iterations",
+      "Implement stricter monitoring and control measures"
+    ],
+    "correct_answer": "Conduct a retrospective to identify underlying causes",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project is using a hybrid approach combining Waterfall planning with Agile execution. Stakeholders are concerned about the lack of detailed documentation typically associated with traditional projects. How should you address their concerns while maintaining Agile principles?",
+    "options": [
+      "Revert to full Waterfall methodology to satisfy stakeholders",
+      "Create comprehensive documentation for all user stories",
+      "Implement just enough documentation that provides value",
+      "Ignore stakeholder concerns and continue with minimal documentation"
+    ],
+    "correct_answer": "Implement just enough documentation that provides value",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are performing a risk assessment and identify a risk with high probability and high impact. After analyzing response strategies, you determine that the cost of mitigation exceeds the expected value of the risk impact. What should be your approach?",
+    "options": [
+      "Always mitigate high probability, high impact risks regardless of cost",
+      "Accept the risk and prepare contingency plans",
+      "Transfer the risk through insurance or contracts",
+      "Avoid the risk by changing the project scope"
+    ],
+    "correct_answer": "Accept the risk and prepare contingency plans",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During the Plan Resource Management process, you identify that your project requires specialized skills that are not available within your organization. The external experts are expensive and have limited availability. What is the best approach to address this resource constraint?",
+    "options": [
+      "Negotiate with external experts for dedicated availability",
+      "Train internal resources to develop the required skills",
+      "Evaluate make-or-buy decisions and consider multiple sourcing options",
+      "Reduce project scope to eliminate the need for specialized skills"
+    ],
+    "correct_answer": "Evaluate make-or-buy decisions and consider multiple sourcing options",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a project with tight deadlines where the team has identified opportunities to fast-track certain activities. However, fast-tracking introduces additional risks and may compromise quality. How should you evaluate this trade-off?",
+    "options": [
+      "Always choose fast-tracking to meet deadlines",
+      "Perform a cost-benefit analysis including risk and quality impacts",
+      "Avoid fast-tracking to maintain quality standards",
+      "Let the team decide based on their technical expertise"
+    ],
+    "correct_answer": "Perform a cost-benefit analysis including risk and quality impacts",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project involves multiple vendors working on different components that must integrate seamlessly. During execution, you discover compatibility issues between vendor deliverables. What should be your immediate response?",
+    "options": [
+      "Penalize vendors for not meeting integration requirements",
+      "Facilitate collaborative problem-solving sessions between vendors",
+      "Replace one vendor to ensure compatibility",
+      "Accept integration issues and work around them"
+    ],
+    "correct_answer": "Facilitate collaborative problem-solving sessions between vendors",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are conducting the Monitor and Control Project Work process and notice that actual costs are significantly below planned costs, while schedule performance is on track. What should be your primary concern?",
+    "options": [
+      "Celebrate the cost savings and continue current approach",
+      "Investigate whether scope is being delivered as planned",
+      "Reallocate unused budget to enhance project scope",
+      "Report positive cost variance to stakeholders"
+    ],
+    "correct_answer": "Investigate whether scope is being delivered as planned",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During stakeholder engagement activities, you identify that a key stakeholder has conflicting interests with the project objectives. This stakeholder has significant political influence within the organization. How should you manage this situation?",
+    "options": [
+      "Avoid engaging with the conflicted stakeholder",
+      "Try to convince the stakeholder to change their position",
+      "Understand their concerns and look for win-win solutions",
+      "Escalate immediately to senior management"
+    ],
+    "correct_answer": "Understand their concerns and look for win-win solutions",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project team is distributed across multiple time zones, and you need to conduct regular planning sessions. Some team members consistently cannot attend due to time zone conflicts. What is the most effective approach to ensure inclusive planning?",
+    "options": [
+      "Require all team members to adjust their schedules",
+      "Hold multiple planning sessions at different times",
+      "Use asynchronous planning tools and techniques",
+      "Rotate planning session times to share the burden"
+    ],
+    "correct_answer": "Use asynchronous planning tools and techniques",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are using Earned Value Management to monitor project performance. The project shows CPI = 0.8 and SPI = 1.2. What does this indicate about your project status?",
+    "options": [
+      "Project is under budget and ahead of schedule",
+      "Project is over budget but ahead of schedule",
+      "Project is under budget but behind schedule",
+      "Project is over budget and behind schedule"
+    ],
+    "correct_answer": "Project is over budget but ahead of schedule",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During the Close Project process, you discover that some project deliverables do not meet the acceptance criteria defined in the project scope statement. The customer is willing to accept these deliverables with minor modifications. What should be your approach?",
+    "options": [
+      "Accept customer willingness and close the project",
+      "Insist on meeting original acceptance criteria before closure",
+      "Document the variances and obtain formal acceptance",
+      "Rework deliverables to meet original criteria regardless of customer acceptance"
+    ],
+    "correct_answer": "Document the variances and obtain formal acceptance",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a project that includes both internal team members and external contractors. You notice that communication gaps between these groups are affecting collaboration and deliverable quality. What is the most effective way to address this issue?",
+    "options": [
+      "Create separate work streams for internal and external resources",
+      "Implement unified communication protocols and regular integration meetings",
+      "Replace external contractors with internal resources",
+      "Assign internal team members to supervise all contractor work"
+    ],
+    "correct_answer": "Implement unified communication protocols and regular integration meetings",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project is following an iterative approach, and you notice that requirements are emerging and evolving throughout the project lifecycle. Stakeholders are concerned about scope creep. How should you address their concerns?",
+    "options": [
+      "Lock down requirements after the first iteration",
+      "Explain that requirement evolution is normal in iterative approaches",
+      "Implement strict change control procedures",
+      "Educate stakeholders on iterative methodology and establish clear boundaries"
+    ],
+    "correct_answer": "Educate stakeholders on iterative methodology and establish clear boundaries",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During quality control activities, you identify a pattern of defects that suggests a systematic issue in the development process. The defects don't immediately impact functionality but could cause problems in the future. What should be your response?",
+    "options": [
+      "Address defects only when they impact functionality",
+      "Conduct root cause analysis and implement process improvements",
+      "Increase testing activities to catch more defects",
+      "Document defects for post-project resolution"
+    ],
+    "correct_answer": "Conduct root cause analysis and implement process improvements",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a project where the original business case assumed certain market conditions that have now changed significantly. The project is still technically feasible, but its business value is questionable. What should be your course of action?",
+    "options": [
+      "Continue the project as planned since resources are already committed",
+      "Recommend project termination due to changed circumstances",
+      "Re-evaluate the business case and present options to stakeholders",
+      "Modify project scope to address new market conditions"
+    ],
+    "correct_answer": "Re-evaluate the business case and present options to stakeholders",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project team has identified an opportunity to significantly improve project outcomes by adopting a new technology. However, this technology introduces unknown risks and requires additional learning time. How should you evaluate this opportunity?",
+    "options": [
+      "Avoid new technology to minimize project risks",
+      "Implement the technology immediately to gain competitive advantage",
+      "Conduct a pilot study to evaluate benefits and risks",
+      "Defer technology adoption to future projects"
+    ],
+    "correct_answer": "Conduct a pilot study to evaluate benefits and risks",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During project execution, you receive a change request that would significantly improve the product's market appeal but would require extending the project timeline by 20%. The business sponsor is eager to implement the change, but the project budget cannot accommodate the extension. What is your best approach?",
+    "options": [
+      "Reject the change request due to budget constraints",
+      "Implement the change and absorb costs within existing budget",
+      "Present a comprehensive impact analysis with multiple options",
+      "Approve the change and request additional budget"
+    ],
+    "correct_answer": "Present a comprehensive impact analysis with multiple options",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are using a Kanban board to manage work flow, and you notice that items are consistently getting stuck in the 'testing' column, creating a bottleneck. The testing team claims they need more time for thorough testing. How should you address this flow issue?",
+    "options": [
+      "Increase the work-in-progress limit for the testing column",
+      "Add more resources to the testing team",
+      "Analyze the bottleneck and implement flow optimization strategies",
+      "Reduce testing requirements to improve flow"
+    ],
+    "correct_answer": "Analyze the bottleneck and implement flow optimization strategies",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project involves implementing a new technology solution across multiple business units with different levels of readiness for change. Some units are enthusiastic while others are resistant. What approach should you take to manage this implementation?",
+    "options": [
+      "Implement simultaneously across all units to ensure consistency",
+      "Start with enthusiastic units and use their success to influence others",
+      "Delay implementation until all units are equally ready",
+      "Use a standardized approach regardless of unit readiness"
+    ],
+    "correct_answer": "Start with enthusiastic units and use their success to influence others",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are conducting procurement activities and receive proposals from vendors with significant price differences. The lowest-cost vendor has less experience but claims they can meet all requirements. How should you evaluate these proposals?",
+    "options": [
+      "Always select the lowest-cost vendor to maximize value",
+      "Choose the most experienced vendor regardless of cost",
+      "Use a weighted scoring system that considers multiple evaluation criteria",
+      "Negotiate with all vendors to achieve price parity"
+    ],
+    "correct_answer": "Use a weighted scoring system that considers multiple evaluation criteria",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project is approaching a critical milestone, and you discover that one of the key deliverables may not meet quality standards due to earlier compromises made to maintain schedule. Stakeholders are expecting the milestone to be met on time. What should you do?",
+    "options": [
+      "Meet the milestone date and address quality issues later",
+      "Delay the milestone to ensure quality standards are met",
+      "Present the situation transparently with options and trade-offs",
+      "Implement additional quality control measures without delaying"
+    ],
+    "correct_answer": "Present the situation transparently with options and trade-offs",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a complex project with multiple sub-projects, each with different methodologies (Agile, Waterfall, and hybrid). Integration between sub-projects is challenging due to different deliverable formats and timing. What is the most effective approach to manage this complexity?",
+    "options": [
+      "Standardize all sub-projects to use the same methodology",
+      "Create integration management processes that accommodate different approaches",
+      "Separate sub-projects completely to avoid integration challenges",
+      "Use only hybrid methodology across all sub-projects"
+    ],
+    "correct_answer": "Create integration management processes that accommodate different approaches",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During the Perform Integrated Change Control process, you receive multiple change requests that individually seem reasonable but collectively would transform the project into something significantly different from the original vision. How should you handle this situation?",
+    "options": [
+      "Approve each change request on its individual merits",
+      "Reject all changes to maintain project integrity",
+      "Evaluate the cumulative impact and recommend project re-baselining",
+      "Approve changes incrementally to minimize impact"
+    ],
+    "correct_answer": "Evaluate the cumulative impact and recommend project re-baselining",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project team includes subject matter experts who are also involved in operational responsibilities. These experts are frequently pulled away from project work to address operational issues, causing project delays. What is the most effective way to address this resource conflict?",
+    "options": [
+      "Replace experts with dedicated project resources",
+      "Schedule project work around operational demands",
+      "Negotiate service level agreements with operational management",
+      "Use external consultants to supplement expert availability"
+    ],
+    "correct_answer": "Negotiate service level agreements with operational management",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a project where the customer has very limited availability for reviews and approvals, causing delays in decision-making. The customer insists on maintaining approval authority but cannot commit more time. How should you address this constraint?",
+    "options": [
+      "Proceed without customer approvals to maintain schedule",
+      "Escalate to customer's management for more engagement",
+      "Implement structured decision-making processes with clear timelines",
+      "Reduce the frequency of required approvals"
+    ],
+    "correct_answer": "Implement structured decision-making processes with clear timelines",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your organization is transitioning from predictive to Agile project management approaches. You are managing a pilot Agile project, and traditional stakeholders are struggling with the reduced documentation and iterative approach. How do you manage this transition effectively?",
+    "options": [
+      "Revert to traditional documentation to satisfy stakeholders",
+      "Educate stakeholders while gradually introducing Agile concepts",
+      "Implement Agile practices without stakeholder accommodation",
+      "Create hybrid documentation that bridges both approaches"
+    ],
+    "correct_answer": "Educate stakeholders while gradually introducing Agile concepts",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During risk monitoring, you notice that several identified risks have not materialized, but new risks are emerging that were not anticipated during initial risk planning. Your risk response strategies are becoming obsolete. What should be your approach?",
+    "options": [
+      "Continue with original risk response plans",
+      "Conduct comprehensive risk reassessment and update strategies",
+      "Focus only on risks that have materialized",
+      "Escalate emerging risks to senior management"
+    ],
+    "correct_answer": "Conduct comprehensive risk reassessment and update strategies",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a project with a fixed-price contract where scope changes are being requested frequently. Each change requires contract modifications, which are time-consuming and affecting project momentum. What strategy would best address this situation?",
+    "options": [
+      "Reject all scope changes to maintain contract simplicity",
+      "Renegotiate the contract to allow for more flexible scope management",
+      "Implement a change request prioritization process",
+      "Absorb minor changes within existing contract terms"
+    ],
+    "correct_answer": "Renegotiate the contract to allow for more flexible scope management",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project team has developed an innovative solution that exceeds customer expectations and could provide significant competitive advantage. However, implementing this solution would require additional time and resources not included in the original project scope. The customer is excited but concerned about additional costs. How should you proceed?",
+    "options": [
+      "Implement the innovation within existing project constraints",
+      "Present a business case for the additional investment",
+      "Save the innovation for a future project",
+      "Implement partially within existing scope"
+    ],
+    "correct_answer": "Present a business case for the additional investment",
     "difficulty": "Hard"
   },
   {
-    "question": "Which risk response strategy involves taking action to reduce the probability or impact of a risk?",
-    "options": ["Avoid", "Transfer", "Mitigate", "Accept"],
-    "correct_answer": "Mitigate",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the main difference between a functional and projectized organizational structure?",
-    "options": ["Size of the organization", "Authority of the project manager", "Number of projects", "Geographic distribution"],
-    "correct_answer": "Authority of the project manager",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project manager discovers that two work packages have been assigned to different teams but have significant overlap. This was not identified during planning. What should the project manager do?",
-    "options": ["Let both teams complete their work", "Assign all work to one team", "Clarify responsibilities and eliminate overlap", "Combine both teams"],
-    "correct_answer": "Clarify responsibilities and eliminate overlap",
+    "question": "You are managing a critical project where a key vendor has informed you that they cannot deliver a crucial component on time due to supply chain issues beyond their control. This delay would impact the critical path and project deadline. What is your most effective response strategy?",
+    "options": [
+      "Penalize the vendor and find an immediate replacement",
+      "Implement fast-tracking on other activities to compensate for the delay",
+      "Develop contingency plans including alternative sourcing and scope adjustments",
+      "Negotiate with stakeholders for project deadline extension"
+    ],
+    "correct_answer": "Develop contingency plans including alternative sourcing and scope adjustments",
     "difficulty": "Hard"
   },
   {
-    "question": "What is the purpose of a sprint backlog in Scrum?",
-    "options": ["To document all project requirements", "To track completed work", "To define work for the current sprint", "To estimate project duration"],
-    "correct_answer": "To define work for the current sprint",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "Which technique is used to identify the minimum time needed to complete a project?",
-    "options": ["Resource Leveling", "Critical Path Method", "Monte Carlo Analysis", "Earned Value Management"],
-    "correct_answer": "Critical Path Method",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the primary purpose of stakeholder analysis?",
-    "options": ["To eliminate difficult stakeholders", "To understand stakeholder influence and interests", "To reduce stakeholder communication", "To assign stakeholder responsibilities"],
-    "correct_answer": "To understand stakeholder influence and interests",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project manager is managing a construction project. Weather conditions have caused significant delays, and the project is now behind schedule. The project manager should:",
-    "options": ["Continue with the original schedule", "Immediately request more resources", "Assess options for schedule recovery", "Accept the delay and update the baseline"],
-    "correct_answer": "Assess options for schedule recovery",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which process involves obtaining seller responses, selecting a seller, and awarding a contract?",
-    "options": ["Plan Procurement Management", "Conduct Procurements", "Control Procurements", "Close Procurements"],
-    "correct_answer": "Conduct Procurements",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the main benefit of using rolling wave planning?",
-    "options": ["It reduces project costs", "It allows detailed planning of near-term work while keeping far-term work at a high level", "It eliminates the need for change control", "It speeds up project execution"],
-    "correct_answer": "It allows detailed planning of near-term work while keeping far-term work at a high level",
+    "question": "Your project involves deploying a new system across multiple international locations with different regulatory requirements, cultural contexts, and technical infrastructures. Initial deployment in the first location revealed significant adaptation needs that were not anticipated. How should you adjust your deployment strategy?",
+    "options": [
+      "Standardize deployment approach based on first location learnings",
+      "Customize deployment approach for each location based on specific needs",
+      "Pause deployment until a universal solution is developed",
+      "Use a hybrid approach with core standards and location-specific adaptations"
+    ],
+    "correct_answer": "Use a hybrid approach with core standards and location-specific adaptations",
     "difficulty": "Hard"
   },
   {
-    "question": "In quality management, what does the term 'fitness for use' mean?",
-    "options": ["The product meets specifications", "The product satisfies customer needs", "The product is defect-free", "The product is delivered on time"],
-    "correct_answer": "The product satisfies customer needs",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project has a Budget at Completion (BAC) of $500K and is 60% complete. The Actual Cost (AC) is $350K. What is the Earned Value (EV)?",
-    "options": ["$300K", "$350K", "$200K", "$150K"],
-    "correct_answer": "$300K",
+    "question": "During project execution, you discover that two critical work packages have conflicting technical requirements that were not identified during planning. Resolving this conflict requires significant rework of already-completed components. What should be your primary consideration in addressing this issue?",
+    "options": [
+      "Minimize rework by choosing the easier technical solution",
+      "Optimize for long-term system integrity and performance",
+      "Balance immediate project impact with long-term technical debt",
+      "Escalate to technical architects for expert resolution"
+    ],
+    "correct_answer": "Balance immediate project impact with long-term technical debt",
     "difficulty": "Hard"
   },
   {
-    "question": "Which Agile framework uses a product backlog and sprint backlog?",
-    "options": ["Kanban", "Scrum", "Extreme Programming", "Feature Driven Development"],
-    "correct_answer": "Scrum",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the purpose of a communications model?",
-    "options": ["To reduce communication costs", "To understand how information is transmitted", "To eliminate communication barriers", "To schedule communication activities"],
-    "correct_answer": "To understand how information is transmitted",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project manager is leading a research and development project with high technical uncertainty. Traditional estimation methods are proving inadequate. What estimation approach would be MOST appropriate?",
-    "options": ["Detailed bottom-up estimates", "Analogous estimates from similar projects", "Phased estimation with increasing accuracy", "Fixed estimates based on available budget"],
-    "correct_answer": "Phased estimation with increasing accuracy",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Which risk identification technique involves systematically examining each element of the WBS?",
-    "options": ["Brainstorming", "Delphi Technique", "Checklist Analysis", "Assumptions Analysis"],
-    "correct_answer": "Checklist Analysis",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the primary purpose of resource calendars?",
-    "options": ["To schedule team meetings", "To track resource utilization", "To identify when resources are available", "To plan resource training"],
-    "correct_answer": "To identify when resources are available",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "In procurement management, what is the purpose of a make-or-buy analysis?",
-    "options": ["To determine contract type", "To select suppliers", "To decide whether to produce internally or purchase", "To negotiate prices"],
-    "correct_answer": "To decide whether to produce internally or purchase",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A senior stakeholder is requesting weekly detailed reports, but the project manager believes this is excessive and creates unnecessary overhead. What should the project manager do?",
-    "options": ["Provide the reports as requested", "Refuse the request citing project efficiency", "Discuss the stakeholder's information needs and propose alternatives", "Delegate report creation to team members"],
-    "correct_answer": "Discuss the stakeholder's information needs and propose alternatives",
+    "question": "Your project team has identified that the current project approach, while meeting stated requirements, will not deliver the business value that stakeholders ultimately need. The team proposes a significant methodology change that would better align with business outcomes but would require re-planning major project components. How do you evaluate this proposal?",
+    "options": [
+      "Reject the proposal to maintain project commitments",
+      "Implement the new approach immediately to maximize business value",
+      "Conduct a comprehensive impact analysis weighing business value against project disruption",
+      "Seek stakeholder input before making any methodological changes"
+    ],
+    "correct_answer": "Conduct a comprehensive impact analysis weighing business value against project disruption",
     "difficulty": "Hard"
   },
   {
-    "question": "What is the primary output of the Plan Schedule Management process?",
-    "options": ["Project Schedule", "Schedule Management Plan", "Activity List", "Schedule Baseline"],
-    "correct_answer": "Schedule Management Plan",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which tool helps visualize work flow and identify bottlenecks in Agile projects?",
-    "options": ["Gantt Chart", "Kanban Board", "RACI Matrix", "Risk Register"],
-    "correct_answer": "Kanban Board",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the main purpose of the project management plan?",
-    "options": ["To get project approval", "To define how the project will be executed, monitored, and controlled", "To communicate with stakeholders", "To estimate project costs"],
-    "correct_answer": "To define how the project will be executed, monitored, and controlled",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project team has identified a new risk that could significantly impact the project. The risk was not in the original risk register. What should the project manager do FIRST?",
-    "options": ["Implement a response strategy immediately", "Update the risk register with the new risk", "Assess the probability and impact of the risk", "Escalate to the project sponsor"],
-    "correct_answer": "Update the risk register with the new risk",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which technique involves adding resources to critical path activities to reduce project duration?",
-    "options": ["Fast Tracking", "Crashing", "Resource Leveling", "Schedule Compression"],
-    "correct_answer": "Crashing",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "What is the purpose of a requirements traceability matrix?",
-    "options": ["To estimate requirement implementation costs", "To link requirements to their origin and track throughout project lifecycle", "To prioritize requirements", "To validate requirements"],
-    "correct_answer": "To link requirements to their origin and track throughout project lifecycle",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project manager is leading a team where members have varying levels of experience and different cultural backgrounds. The team is struggling with collaboration and decision-making. What leadership approach would be MOST effective?",
-    "options": ["Directive leadership with clear instructions", "Supportive leadership focusing on relationships", "Participative leadership encouraging involvement", "Achievement-oriented leadership setting high standards"],
-    "correct_answer": "Supportive leadership focusing on relationships",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Which earned value management formula calculates the Estimate at Completion (EAC) assuming future work will proceed at planned rates?",
-    "options": ["AC + (BAC - EV)", "BAC / CPI", "AC + Bottom-up ETC", "AC + [(BAC - EV) / (CPI × SPI)]"],
-    "correct_answer": "AC + (BAC - EV)",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "What is the primary purpose of quality control?",
-    "options": ["To prevent defects", "To improve processes", "To monitor outputs for conformance to requirements", "To train team members"],
-    "correct_answer": "To monitor outputs for conformance to requirements",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "In stakeholder management, what does 'manage closely' mean?",
-    "options": ["Monitor stakeholder activities", "Provide stakeholders with information", "Actively engage and manage stakeholder expectations", "Keep stakeholders satisfied"],
-    "correct_answer": "Actively engage and manage stakeholder expectations",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "A project has experienced several scope changes, and the project manager wants to ensure all team members understand the current scope. What document should be referenced?",
-    "options": ["Original Project Charter", "Latest approved Project Scope Statement", "Change Request Log", "Work Breakdown Structure"],
-    "correct_answer": "Latest approved Project Scope Statement",
-    "difficulty": "Medium"
-  },
-  {
-    "question": "Which Agile practice involves the team reflecting on how to become more effective?",
-    "options": ["Daily Standup", "Sprint Planning", "Sprint Review", "Sprint Retrospective"],
-    "correct_answer": "Sprint Retrospective",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "What is the main purpose of a project closure meeting?",
-    "options": ["To celebrate project success", "To evaluate team performance", "To capture lessons learned and formally close the project", "To plan the next project"],
-    "correct_answer": "To capture lessons learned and formally close the project",
-    "difficulty": "Easy"
-  },
-  {
-    "question": "A project manager discovers that a critical path activity will take longer than planned due to technical complexity. The delay will impact the project deadline. What should be the FIRST course of action?",
-    "options": ["Add more resources to the activity", "Look for alternative approaches or workarounds", "Accept the delay and update stakeholders", "Fast track other activities to compensate"],
-    "correct_answer": "Look for alternative approaches or workarounds",
+    "question": "You are managing a project where initial estimates were based on assumptions that have proven incorrect during execution. The project is now projected to exceed budget by 40% and schedule by 25%. Stakeholders are questioning the viability of continuing the project. What framework should guide your recommendation?",
+    "options": [
+      "Recommend project termination to minimize further losses",
+      "Request additional resources to complete the project as originally envisioned",
+      "Evaluate sunk costs against remaining value and alternative options",
+      "Reduce project scope to fit within original constraints"
+    ],
+    "correct_answer": "Evaluate sunk costs against remaining value and alternative options",
     "difficulty": "Hard"
   },
   {
-    "question": "Which cost estimating technique uses statistical relationships between historical data and other variables?",
-    "options": ["Analogous estimating", "Parametric estimating", "Bottom-up estimating", "Three-point estimating"],
-    "correct_answer": "Parametric estimating",
-    "difficulty": "Medium"
+    "question": "Your organization is implementing a portfolio of related projects, and you discover that your project's deliverables are creating unexpected dependencies with other projects in the portfolio. These dependencies were not identified during portfolio planning and are now constraining multiple projects. How should you address this portfolio-level complexity?",
+    "options": [
+      "Focus only on your project and let portfolio management handle dependencies",
+      "Coordinate directly with other project managers to resolve dependencies",
+      "Escalate to portfolio management for integrated dependency resolution",
+      "Modify your project scope to eliminate dependencies"
+    ],
+    "correct_answer": "Escalate to portfolio management for integrated dependency resolution",
+    "difficulty": "Hard"
   },
   {
-    "question": "What is the primary benefit of conducting regular team building activities?",
-    "options": ["To reduce project costs", "To improve team performance and cohesion", "To identify individual weaknesses", "To satisfy HR requirements"],
-    "correct_answer": "To improve team performance and cohesion",
+    "question": "During the final stages of your project, you discover that the implemented solution has unintended consequences that could negatively impact other business operations. These impacts were not identified during risk assessment, and the solution is technically correct according to requirements. What should be your immediate priority?",
+    "options": [
+      "Complete the project as planned since requirements were met",
+      "Investigate the impacts and develop mitigation strategies",
+      "Halt project closure until impacts are fully resolved",
+      "Transfer responsibility for impacts to operational management"
+    ],
+    "correct_answer": "Investigate the impacts and develop mitigation strategies",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your project involves multiple stakeholder groups with fundamentally different success criteria. What satisfies one group creates dissatisfaction for another. Traditional compromise solutions are not acceptable to any group. How do you navigate this complex stakeholder landscape?",
+    "options": [
+      "Prioritize the most influential stakeholder group",
+      "Seek higher-level organizational direction on priorities",
+      "Design innovative solutions that transcend traditional trade-offs",
+      "Implement phase-based delivery to address different stakeholder needs sequentially"
+    ],
+    "correct_answer": "Design innovative solutions that transcend traditional trade-offs",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You are managing a project where the original business justification was based on market conditions that have shifted dramatically. The project is technically successful and could be completed, but its business value is now questionable. However, canceling would mean significant sunk costs and potential team layoffs. What factors should primarily guide your recommendation?",
+    "options": [
+      "Protect team employment by continuing the project",
+      "Minimize sunk costs by completing the project quickly",
+      "Evaluate opportunity costs and alternative value creation options",
+      "Follow original project commitments regardless of changed conditions"
+    ],
+    "correct_answer": "Evaluate opportunity costs and alternative value creation options",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your project team has developed expertise in emerging technologies that could revolutionize your industry. However, fully leveraging this expertise would require fundamental changes to project scope, methodology, and timeline. The current project approach is safe but may miss a significant opportunity. How do you balance innovation opportunity with project reliability?",
+    "options": [
+      "Maintain current approach to ensure project success",
+      "Fully embrace innovation despite project risks",
+      "Implement innovation incrementally while maintaining project stability",
+      "Create parallel innovation tracks separate from main project"
+    ],
+    "correct_answer": "Implement innovation incrementally while maintaining project stability",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You discover that your project's success metrics, while being achieved, do not align with actual business value creation. The metrics were established during project initiation based on available information, but business understanding has evolved. Changing metrics now would make the project appear unsuccessful. How do you address this misalignment?",
+    "options": [
+      "Continue with original metrics to maintain project credibility",
+      "Quietly adjust approach to optimize for real business value",
+      "Transparently address the metrics evolution with stakeholders",
+      "Complete project with original metrics and address value in post-project phase"
+    ],
+    "correct_answer": "Transparently address the metrics evolution with stakeholders",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your project involves sensitive data and has strict security requirements. During implementation, you discover that meeting security requirements significantly impacts system usability and user adoption. Users are finding workarounds that potentially compromise security. What approach balances security and usability?",
+    "options": [
+      "Enforce strict security regardless of usability impact",
+      "Reduce security requirements to improve user adoption",
+      "Design security solutions that maintain both security and usability",
+      "Implement user education programs to improve security compliance"
+    ],
+    "correct_answer": "Design security solutions that maintain both security and usability",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You are managing a project where artificial intelligence is being used to optimize project decision-making. The AI recommendations sometimes conflict with human expertise and established practices. Team members are divided on when to follow AI recommendations versus human judgment. How do you establish governance for AI-assisted project management?",
+    "options": [
+      "Always follow AI recommendations for consistency",
+      "Use human judgment to override AI when appropriate",
+      "Establish criteria for when to use AI versus human decision-making",
+      "Avoid AI recommendations to prevent confusion"
+    ],
+    "correct_answer": "Establish criteria for when to use AI versus human decision-making",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your project has achieved technical success, but implementation reveals that the solution creates ethical dilemmas for end users. The solution is legal and meets all stated requirements, but users report moral discomfort with certain features. How should you address these ethical concerns post-implementation?",
+    "options": [
+      "Continue with implementation since requirements were met",
+      "Modify features that create ethical concerns",
+      "Provide user training on ethical decision-making",
+      "Collaborate with users to develop ethical usage guidelines"
+    ],
+    "correct_answer": "Collaborate with users to develop ethical usage guidelines",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You are managing a project where continuous integration practices have revealed that different team components are developing solutions that work individually but create system-level performance issues when integrated. This was not apparent during component testing. What integration strategy should you implement?",
+    "options": [
+      "Optimize individual components for better system performance",
+      "Redesign system architecture to accommodate component interactions",
+      "Implement system-level performance monitoring and optimization",
+      "Balance component optimization with system-level performance requirements"
+    ],
+    "correct_answer": "Balance component optimization with system-level performance requirements",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your organization is experiencing rapid growth, and your project's scope has expanded organically to address emerging needs. While the expanded scope creates more value, it has made the project unwieldy and difficult to manage. How do you regain control while preserving value creation?",
+    "options": [
+      "Revert to original scope to regain manageability",
+      "Embrace expanded scope and adjust management approach",
+      "Break the expanded project into multiple manageable projects",
+      "Implement staged delivery to manage complexity"
+    ],
+    "correct_answer": "Break the expanded project into multiple manageable projects",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "You discover that your project's innovative approach could be patentable and provide significant competitive advantage, but pursuing patents would require disclosing methods that could benefit competitors if patents are not granted. How do you evaluate this intellectual property strategy?",
+    "options": [
+      "Pursue patents immediately to protect innovation",
+      "Keep methods as trade secrets to maintain competitive advantage",
+      "Evaluate patent strength and competitive landscape before deciding",
+      "Focus on speed to market rather than intellectual property protection"
+    ],
+    "correct_answer": "Evaluate patent strength and competitive landscape before deciding",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Your project involves implementing emerging technology where best practices are still evolving. Traditional risk management approaches may not adequately address unknown unknowns. What risk management strategy is most appropriate for this high-uncertainty environment?",
+    "options": [
+      "Apply traditional risk management with additional contingency reserves",
+      "Use experimental approaches with rapid learning cycles",
+      "Delay implementation until technology matures",
+      "Transfer risks through comprehensive insurance and contracts"
+    ],
+    "correct_answer": "Use experimental approaches with rapid learning cycles",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "You are managing a project where the intersection of artificial intelligence, regulatory compliance, and ethical considerations creates unprecedented complexity. Traditional project management frameworks don't adequately address this multi-dimensional challenge. How do you develop appropriate governance structures?",
+    "options": [
+      "Apply existing frameworks and adapt as issues arise",
+      "Create new governance frameworks specifically for AI ethics compliance",
+      "Establish multi-disciplinary advisory groups to guide decisions",
+      "Focus on technical delivery and address other considerations post-implementation"
+    ],
+    "correct_answer": "Establish multi-disciplinary advisory groups to guide decisions",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Your project has become a catalyst for broader organizational transformation, with impacts extending far beyond original scope. While this creates significant value, it also introduces complexity that threatens project manageability. Senior leadership wants to leverage this transformation opportunity while maintaining project success. How do you balance these competing demands?",
+    "options": [
+      "Focus solely on original project scope to ensure success",
+      "Expand project scope to encompass full transformation",
+      "Create transformation governance that operates parallel to project management",
+      "Design adaptive project structures that can evolve with transformation needs"
+    ],
+    "correct_answer": "Design adaptive project structures that can evolve with transformation needs",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "You discover that your project's success depends on resolving a fundamental paradox: stakeholders demand both maximum innovation and minimal risk, rapid delivery and thorough validation, cost efficiency and premium quality. Traditional trade-off analysis doesn't resolve these tensions. What approach addresses these seemingly irreconcilable demands?",
+    "options": [
+      "Force stakeholders to prioritize conflicting demands",
+      "Design solutions that transcend traditional trade-offs through innovation",
+      "Implement sequential phases that address different demands separately",
+      "Use advanced modeling to find optimal balance points"
+    ],
+    "correct_answer": "Design solutions that transcend traditional trade-offs through innovation",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Your project involves deploying quantum computing capabilities where the technology itself changes the fundamental assumptions underlying traditional project management (deterministic planning, predictable outcomes, linear cause-effect relationships). How do you adapt project management to quantum technology characteristics?",
+    "options": [
+      "Apply traditional project management with quantum technology expertise",
+      "Develop quantum-inspired project management methodologies",
+      "Focus on quantum technology development and minimize management overhead",
+      "Create hybrid approaches that bridge traditional and quantum paradigms"
+    ],
+    "correct_answer": "Develop quantum-inspired project management methodologies",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "You are managing a project where the solution must simultaneously optimize for multiple conflicting objectives across different time horizons: short-term financial returns, medium-term market positioning, long-term sustainability, and societal impact. Each optimization changes the others in non-linear ways. What framework addresses this multi-objective, multi-temporal complexity?",
+    "options": [
+      "Use weighted scoring to balance different objectives",
+      "Optimize sequentially for different time horizons",
+      "Develop dynamic optimization models that adapt to changing conditions",
+      "Focus on objectives with highest organizational priority"
+    ],
+    "correct_answer": "Develop dynamic optimization models that adapt to changing conditions",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Your project operates in an environment where success criteria are not just uncertain but fundamentally unknowable until after implementation. Traditional planning assumes knowable outcomes, but your project involves emergent phenomena where the act of implementation creates new realities. How do you manage toward unknowable success?",
+    "options": [
+      "Use scenario planning to address multiple possible outcomes",
+      "Implement experimental approaches with continuous adaptation",
+      "Focus on building adaptive capacity rather than achieving specific outcomes",
+      "Create learning-oriented success metrics that evolve with understanding"
+    ],
+    "correct_answer": "Focus on building adaptive capacity rather than achieving specific outcomes",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "You discover that your project exists within a complex ecosystem where multiple organizations, technologies, and social systems interact in ways that create emergent behaviors. Your project's success depends on influencing this ecosystem evolution, but traditional project control mechanisms are insufficient. What approach addresses ecosystem-level project management?",
+    "options": [
+      "Focus on elements within direct project control",
+      "Build coalition management capabilities to influence ecosystem evolution",
+      "Use systems thinking to design ecosystem interventions",
+      "Create adaptive monitoring systems that respond to ecosystem changes"
+    ],
+    "correct_answer": "Use systems thinking to design ecosystem interventions",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Your project involves implementing solutions that will fundamentally change how work is done, potentially eliminating some job categories while creating others. The transformation is necessary for organizational survival, but creates significant ethical and social responsibility concerns. How do you manage project success while addressing broader transformation impacts?",
+    "options": [
+      "Focus on technical implementation and let organization handle social impacts",
+      "Integrate social responsibility considerations into project design and implementation",
+      "Implement transformation gradually to minimize social disruption",
+      "Create stakeholder support systems parallel to technical implementation"
+    ],
+    "correct_answer": "Integrate social responsibility considerations into project design and implementation",
+    "difficulty": "Very Hard"
+  },
+  {
+    "question": "Which external factor most significantly influences project business environment analysis?",
+    "options": [
+      "Team skill levels",
+      "Market conditions and regulatory changes",
+      "Project methodology selection",
+      "Internal resource availability"
+    ],
+    "correct_answer": "Market conditions and regulatory changes",
     "difficulty": "Easy"
   },
   {
-    "question": "In risk management, what is a residual risk?",
-    "options": ["A risk that has been eliminated", "A risk that remains after implementing risk responses", "A risk with low impact", "A risk identified late in the project"],
-    "correct_answer": "A risk that remains after implementing risk responses",
-    "difficulty": "Hard"
+    "question": "What is the primary purpose of a business case in project management?",
+    "options": [
+      "Define project scope",
+      "Justify project investment",
+      "Assign project resources",
+      "Create project timeline"
+    ],
+    "correct_answer": "Justify project investment",
+    "difficulty": "Easy"
   },
   {
-    "question": "What is the purpose of the Validate Scope process?",
-    "options": ["To ensure scope is properly planned", "To control scope changes", "To obtain formal acceptance of completed deliverables", "To decompose project scope"],
-    "correct_answer": "To obtain formal acceptance of completed deliverables",
+    "question": "Which compliance consideration is most critical when managing projects in regulated industries?",
+    "options": [
+      "Team productivity metrics",
+      "Industry standards and legal requirements",
+      "Project cost optimization",
+      "Schedule acceleration techniques"
+    ],
+    "correct_answer": "Industry standards and legal requirements",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does organizational change management primarily address in projects?",
+    "options": [
+      "Technical implementation details",
+      "People's adaptation to new processes and systems",
+      "Budget allocation decisions",
+      "Schedule optimization"
+    ],
+    "correct_answer": "People's adaptation to new processes and systems",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the context of business environment, what does 'benefits realization' refer to?",
+    "options": [
+      "Completing project deliverables",
+      "Achieving intended business value from project outcomes",
+      "Reducing project costs",
+      "Accelerating project timeline"
+    ],
+    "correct_answer": "Achieving intended business value from project outcomes",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which factor is most important when assessing project strategic alignment?",
+    "options": [
+      "Project technical complexity",
+      "Alignment with organizational goals and strategy",
+      "Resource availability",
+      "Timeline constraints"
+    ],
+    "correct_answer": "Alignment with organizational goals and strategy",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the primary focus of project value delivery in business context?",
+    "options": [
+      "Meeting technical specifications",
+      "Delivering business benefits and outcomes",
+      "Completing work on time",
+      "Staying within budget"
+    ],
+    "correct_answer": "Delivering business benefits and outcomes",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Your organization is launching a new product in a highly competitive market where time-to-market is critical. However, regulatory approval processes are lengthy and unpredictable. How should you structure your project approach to balance speed with compliance requirements?",
+    "options": [
+      "Accelerate development and address compliance later",
+      "Complete all compliance activities before beginning development",
+      "Run development and compliance activities in parallel with integration points",
+      "Delay project launch until regulatory environment stabilizes"
+    ],
+    "correct_answer": "Run development and compliance activities in parallel with integration points",
     "difficulty": "Medium"
   },
   {
-    "question": "Your project is 50% complete. EV = $500,000, AC = $600,000, BAC = $1,000,000. Using the formula EAC = AC + (BAC - EV) / CPI, what is the Estimate at Completion (EAC)?",
-    "options": ["$1,100,000", "$1,200,000", "$1,300,000", "$1,400,000"],
-    "correct_answer": "$1,200,000",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "In a multi-phase project using a gated approach, phase two is approved based on incomplete phase one deliverables. This introduces quality and scope ambiguity in phase two. What should the project manager do?",
-    "options": ["Proceed with phase two as planned", "Pause phase two and complete phase one deliverables", "Document the ambiguity as a risk and develop a mitigation plan", "Escalate to the steering committee for immediate decision"],
-    "correct_answer": "Document the ambiguity as a risk and develop a mitigation plan",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A project’s CSV (Cost Schedule Variance) indicates EV - (AC + PV) = -$150,000. What does this combined variance imply and which corrective action is most appropriate?",
-    "options": ["The project is over budget and behind schedule; perform root cause analysis and reprioritize scope", "The project is under budget but ahead of schedule; fast-track remaining tasks", "The project is over budget but ahead of schedule; crash critical path activities", "The project is under budget but behind schedule; level resources to optimize schedule"],
-    "correct_answer": "The project is over budget and behind schedule; perform root cause analysis and reprioritize scope",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "During a coalition-of-suppliers procurement, conflicting subcontractor performance metrics are discovered. The prime contractor insists all subcontracts must follow the prime metrics. What should the project manager do?",
-    "options": ["Enforce the prime contractor’s metrics without modification", "Negotiate a balanced metric set with subcontractors and prime contractor", "Ignore the discrepancy and focus on overall project deliverables", "Escalate to the procurement board for decision"],
-    "correct_answer": "Negotiate a balanced metric set with subcontractors and prime contractor",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project has a negative float of -5 days due to a supplier delay. The sponsor insists the original finish date is non-negotiable. Which schedule compression technique is most appropriate, given that cost is not a major concern?",
-    "options": ["Crashing by adding additional resources and overtime", "Fast tracking by overlapping subsequent activities despite risk", "Applying resource leveling to reduce peak demands", "Revising dependencies to non-critical chaining"],
-    "correct_answer": "Fast tracking by overlapping subsequent activities despite risk",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "In a highly matrixed organization, the project manager has limited formal authority and must influence a functional manager to prioritize project tasks. Which influence tactic is MOST effective in this context?",
-    "options": ["Legitimate power—remind the functional manager of organizational policies", "Reward power—offer incentives to the functional manager", "Referent power—build rapport and demonstrate project benefits", "Coercive power—threaten to escalate to senior management"],
-    "correct_answer": "Referent power—build rapport and demonstrate project benefits",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A major regulatory change is introduced mid-project, affecting multiple deliverables and costs. The cost baseline must be reforecast. Which EAC formula should be used to incorporate the new regulatory compliance cost, assuming prior CPI and SPI remain valid?",
-    "options": ["AC + (BAC - EV)", "AC + ((BAC - EV) / CPI)", "AC + ((BAC - EV) / (CPI × SPI))", "AC + (New Compliance Cost) + ((BAC - EV) / CPI)"],
-    "correct_answer": "AC + (New Compliance Cost) + ((BAC - EV) / CPI)",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project’s quality audit finds systemic defects in deliverables due to inadequate process adherence. Which approach should be applied to correct and prevent recurrence across all projects in the program?",
-    "options": ["Implement corrective actions only for the current project", "Perform a root cause analysis and update organizational process assets", "Reassign quality assurance responsibilities to a new team", "Escalate to the program sponsor for immediate directive"],
-    "correct_answer": "Perform a root cause analysis and update organizational process assets",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "The project schedule includes a risk buffer of 10 days, based on Monte Carlo analysis. A high-impact risk materializes and consumes the entire buffer. The sponsor demands delivery without delay. What is the next step?",
-    "options": ["Use management reserve to cover the delay and proceed", "Fast track and crash the remaining critical path activities", "Update the schedule baseline and negotiate a new finish date", "Escalate to the governance board for additional budget and time"],
-    "correct_answer": "Fast track and crash the remaining critical path activities",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "In a complex multi-program environment, resource contention arises as two program managers request the same scarce expert. Both programs have similar priority. What is the best resolution?",
-    "options": ["Flip a coin to decide resource allocation", "Negotiate shared resource time split and adjust schedules accordingly", "Escalate decision to the portfolio steering committee", "Hire an external expert immediately"],
-    "correct_answer": "Negotiate shared resource time split and adjust schedules accordingly",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project is subject to both Agile sprints and fixed-price contract deliverables. The customer refuses incremental acceptance until full scope is delivered. What risk mitigation strategy should you employ?",
-    "options": ["Change to a cost-reimbursable contract to allow incremental billing", "Continue Agile sprints but withhold demos until full scope is complete", "Implement phased releases that align with fixed-price milestones", "Terminate Agile and adopt a pure Waterfall approach"],
-    "correct_answer": "Implement phased releases that align with fixed-price milestones",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "During a statistical sampling quality audit, you discover the defect rate exceeds the acceptable threshold of 2%. The project manager must present a fix. Which control response is most appropriate before reporting to the steering committee?",
-    "options": ["Conduct a detailed process capability analysis and implement immediate corrective actions", "Re-test the entire batch to confirm sampling error", "Increase the quality inspection frequency without further analysis", "Accept the defect rate as normal variance"],
-    "correct_answer": "Conduct a detailed process capability analysis and implement immediate corrective actions",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A recently acquired subsidiary’s project management processes differ significantly from your organization’s. You need to integrate methodologies without disrupting ongoing projects. Which approach is best?",
-    "options": ["Mandate immediate adoption of your organization’s processes", "Perform a gap analysis and develop a hybrid process integration plan", "Allow the subsidiary to continue with no changes until project completion", "Outsource integration planning to a third-party consultant"],
-    "correct_answer": "Perform a gap analysis and develop a hybrid process integration plan",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project sponsor demands a 15% quality improvement with no increase in cost or schedule. Which quality management tool would best help achieve this target?",
-    "options": ["Pareto Analysis", "Six Sigma DMAIC", "Fishbone Diagram", "Control Chart"],
-    "correct_answer": "Six Sigma DMAIC",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "The project’s risk owner for a critical risk is unresponsive, and the risk has a high probability of occurring in two weeks. You cannot reach them for escalation. What should you do?",
-    "options": ["Reassign the risk to a backup risk owner and document the change", "Remove the risk from the register since the owner is unresponsive", "Wait until the risk materializes before taking action", "Inform the sponsor that the risk cannot be managed"],
-    "correct_answer": "Reassign the risk to a backup risk owner and document the change",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project involves multiple international compliance standards. Midway, a new regional regulation is enforced that conflicts with existing standards. How do you proceed?",
-    "options": ["Disregard the new regulation and continue", "Engage compliance experts to reconcile and update project deliverables", "Escalate to legal department and halt work until resolved", "Outsource the compliance reconciliation to a third-party"],
-    "correct_answer": "Engage compliance experts to reconcile and update project deliverables",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A key vendor critical to your project’s success declares bankruptcy. You estimate a 4-week delay to replace and qualify a new vendor. The project’s deadline is immovable. What corrective action should you propose?",
-    "options": ["Proceed with an unqualified vendor to avoid delay", "Negotiate accelerated delivery with a new vendor and reallocate internal resources", "Cancel the project due to the vendor bankruptcy", "Extend the deadline quietly without informing stakeholders"],
-    "correct_answer": "Negotiate accelerated delivery with a new vendor and reallocate internal resources",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "You're managing a large infrastructure program. One of the subprojects requires a major architectural change based on new technology. Implementing this will delay the subproject by 8 weeks and increase budget by 12%. The program’s critical path is unaffected, but downstream dependencies exist. How should you handle this?",
-    "options": ["Reject the change due to schedule and cost impact", "Approve the change and use management reserve for cost and time", "Accept the change but negotiate scope reduction elsewhere", "Escalate to the program board to decide acceptance criteria"],
-    "correct_answer": "Accept the change but negotiate scope reduction elsewhere",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A major stakeholder threatens to pull funding unless a controversial technical solution is adopted. Your team strongly advises against it due to high risk. What is the most appropriate action?",
-    "options": ["Adopt the proposed solution to secure funding", "Present a thorough risk-benefit analysis to the stakeholder and negotiate alternatives", "Ignore the stakeholder’s demands and proceed with your solution", "Escalate directly to legal counsel for mediation"],
-    "correct_answer": "Present a thorough risk-benefit analysis to the stakeholder and negotiate alternatives",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project’s risk audit recommends adding a schedule contingency of 5% and a cost contingency of 7%. The sponsor insists on removing all contingencies to reduce the budget. Which approach aligns best with project governance?",
-    "options": ["Remove contingencies and absorb risks within existing plan", "Retain contingencies but reallocate to hidden reserves", "Educate the sponsor on contingency purpose and recommend maintaining risk buffers", "Completely ignore the sponsor’s directive"],
-    "correct_answer": "Educate the sponsor on contingency purpose and recommend maintaining risk buffers",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project spans five countries, each with its own currency. Midway, currency fluctuations of 15% occur against your base currency. How should you manage this financial risk moving forward?",
-    "options": ["Hedge using forward contracts for future payments", "Ignore fluctuations and absorb cost variances", "Switch all payments to base currency immediately", "Renegotiate all vendor contracts quarterly"],
-    "correct_answer": "Hedge using forward contracts for future payments",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A senior stakeholder demands weekly executive-level dashboards but also expects minimal team overhead. How would you design a reporting solution?",
-    "options": ["Automate dashboard generation using PMIS with real-time data feeds", "Manually compile dashboards each week to ensure accuracy", "Provide a high-level dashboard monthly instead of weekly", "Delegate report creation to the team leads with no automation"],
-    "correct_answer": "Automate dashboard generation using PMIS with real-time data feeds",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project involves integrating two legacy systems with minimal documentation. The integration testing phase uncovers multiple unknown dependencies causing repeated failures. What is the most effective next step?",
-    "options": ["Proceed with integration despite failures to meet schedule", "Conduct thorough reverse-engineering analysis and update integration plan", "Outsource integration testing to a third-party specialist", "Cancel integration and revert to manual processes"],
-    "correct_answer": "Conduct thorough reverse-engineering analysis and update integration plan",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "In a large-scale Agile transformation, teams report that existing procurement and contract practices are impeding iterative delivery. What should the project manager recommend?",
-    "options": ["Maintain current procurement practices and adapt Agile to them", "Develop Agile-friendly procurement guidelines with flexible contract terms", "Switch to a fixed-price contract model to simplify procurement", "Postpone all procurement until after Agile implementation is complete"],
-    "correct_answer": "Develop Agile-friendly procurement guidelines with flexible contract terms",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "The critical path of your project is showing near-zero float due to constrained resources. A high-priority change request arrives that requires immediate action. What is the best path forward?",
-    "options": ["Reject the change request to protect the schedule", "Evaluate fast-tracking opportunities and adjust dependencies", "Add the change to the end of the project to preserve critical path", "Escalate to the project sponsor without analysis"],
-    "correct_answer": "Evaluate fast-tracking opportunities and adjust dependencies",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project management office (PMO) implements a new governance process requiring bi-weekly steering committee approvals. This doubles your cycle time for key decisions. How do you ensure timely delivery without violating governance?",
-    "options": ["Skip governance meetings when behind schedule", "Propose a risk-based alternative approval process for non-critical decisions", "Compress schedule to absorb governance delays", "Escalate to PMO director to bypass the process"],
-    "correct_answer": "Propose a risk-based alternative approval process for non-critical decisions",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project is using earned schedule (ES) metrics. At month four, ES = 3.5 months, Actual Time (AT) = 4 months. What is your Schedule Efficiency Index (SEI) and what does it imply?",
-    "options": ["SEI = 0.875; project is behind schedule", "SEI = 1.143; project is ahead of schedule", "SEI = 0.875; project is ahead of schedule", "SEI = 1.143; project is behind schedule"],
-    "correct_answer": "SEI = 0.875; project is behind schedule",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A project’s stakeholder engagement assessment shows declining support from a key sponsor. What advanced technique should be used to regain alignment and maintain project momentum?",
-    "options": ["Host a one-on-one executive alignment workshop focusing on strategic objectives", "Ignore and focus on operational tasks", "Replace the sponsor with a more supportive executive", "Increase frequency of status emails"],
-    "correct_answer": "Host a one-on-one executive alignment workshop focusing on strategic objectives",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project’s scope baseline is frozen, but a critical regulatory requirement emerges that falls outside the approved scope. The sponsor demands immediate compliance. How should you proceed?",
-    "options": ["Defer the requirement until the next project cycle", "Initiate an integrated change control, document impacts, and seek formal approval", "Implement the requirement without approval to avoid risk", "Escalate to legal counsel and ignore project processes"],
-    "correct_answer": "Initiate an integrated change control, document impacts, and seek formal approval",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "During a large-scale deployment, you discover that the cutover plan fails to address rollback procedures if critical systems fail post-launch. What is the most appropriate immediate action?",
-    "options": ["Proceed with cutover as planned to avoid further delays", "Pause deployment, activate risk response plan, and define rollback procedures", "Notify stakeholders after deployment if failures occur", "Bypass rollback and patch systems post-launch"],
-    "correct_answer": "Pause deployment, activate risk response plan, and define rollback procedures",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project’s baseline indicates a BAC of $2,000,000. At 50% complete: EV = $1,000,000, AC = $1,200,000. Forecasting using EAC = BAC/CPI, what is the new forecast and what corrective action is appropriate?",
-    "options": ["EAC = $1,666,667; implement cost reduction measures", "EAC = $2,400,000; conduct value analysis and optimize scope", "EAC = $1,800,000; fast track remaining tasks", "EAC = $2,200,000; request additional funding"],
-    "correct_answer": "EAC = $2,400,000; conduct value analysis and optimize scope",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "A critical software component delivered by a subcontractor fails certification testing. The subcontractor proposes a workaround that solves the issue but voids contractual warranties. What is the best course of action?",
-    "options": ["Accept the workaround to maintain schedule", "Reject the workaround and enforce contractual compliance", "Negotiate updated warranties and modify contract terms", "Cancel the subcontractor and re-bid the work"],
-    "correct_answer": "Negotiate updated warranties and modify contract terms",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project integrates with multiple legacy systems. Security audit reveals vulnerabilities that require significant redesign. The schedule impact is estimated at 12 weeks. The client insists on original timeline. What comprehensive approach should you propose?",
-    "options": ["Proceed with original timeline and address vulnerabilities later", "Propose a phased implementation with critical security fixes first and negotiate timeline adjustments", "Ignore security findings to avoid scope creep", "Escalate to project sponsor and halt project until timeline is extended"],
-    "correct_answer": "Propose a phased implementation with critical security fixes first and negotiate timeline adjustments",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "In a project where cost estimation used bottom-up techniques, actual costs are significantly lower than estimates due to unforeseen market deflation. How should you reflect this in the forecast and stakeholder communication?",
-    "options": ["Maintain original baseline and note the deflation in lessons learned", "Rebaseline the project to reflect lower costs and update forecast with revised EAC", "Ignore deflation and proceed with original budget", "Use deflation savings for scope increase without notifying stakeholders"],
-    "correct_answer": "Rebaseline the project to reflect lower costs and update forecast with revised EAC",
-    "difficulty": "Very Hard"
-  },
-  {
-    "question": "Your project team uses a hybrid lifecycle. During a governance audit, you find discrepancies between Agile story tracking and formal stage-gate reporting. What is the optimal integration strategy?",
-    "options": ["Maintain separate tracking systems and reconcile at project end", "Develop a unified reporting framework that maps Agile metrics to stage-gate milestones", "Switch entirely to Agile and eliminate stage-gate processes", "Abandon Agile practices and adopt predictive methodology exclusively"],
-    "correct_answer": "Develop a unified reporting framework that maps Agile metrics to stage-gate milestones",
-    "difficulty": "Very Hard"
-  },
-    {
-    "question": "During risk response planning, a project team decides to purchase insurance for potential equipment damage. This is an example of which risk response strategy?",
-    "options": ["Avoid", "Mitigate", "Transfer", "Accept"],
-    "correct_answer": "Transfer",
+    "question": "You are managing a digital transformation project where the business environment is shifting rapidly due to technological disruption. Competitors are launching similar initiatives, and customer expectations are evolving quickly. How do you maintain project relevance in this dynamic environment?",
+    "options": [
+      "Lock in current requirements to maintain project stability",
+      "Implement continuous environmental scanning and adaptive planning",
+      "Accelerate project delivery to beat competition",
+      "Focus on internal capabilities rather than external factors"
+    ],
+    "correct_answer": "Implement continuous environmental scanning and adaptive planning",
     "difficulty": "Medium"
   },
   {
-    "question": "In Scrum, which ceremony allows stakeholders to inspect the product increment and adapt the product backlog?",
-    "options": ["Daily Standup", "Sprint Planning", "Sprint Review", "Backlog Refinement"],
-    "correct_answer": "Sprint Review",
+    "question": "Your project involves implementing new technology that will significantly change business processes. Early adopter organizations have reported both major benefits and significant implementation challenges. How should this industry experience influence your project approach?",
+    "options": [
+      "Follow early adopter approaches exactly",
+      "Avoid the new technology due to reported challenges",
+      "Learn from others' experiences while adapting to your specific context",
+      "Wait for more organizations to implement before proceeding"
+    ],
+    "correct_answer": "Learn from others' experiences while adapting to your specific context",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You discover that your project's business case was based on market assumptions that are no longer valid due to economic changes. The project is 60% complete and technically successful, but the financial justification has weakened. What should be your primary consideration?",
+    "options": [
+      "Continue the project to avoid sunk cost losses",
+      "Terminate the project immediately to minimize further investment",
+      "Re-evaluate the business case with current market conditions",
+      "Reduce project scope to improve financial returns"
+    ],
+    "correct_answer": "Re-evaluate the business case with current market conditions",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your organization operates in multiple countries with different regulatory requirements for the same type of project. You need to deliver a solution that can be deployed globally while meeting local compliance needs. What approach best addresses this complexity?",
+    "options": [
+      "Create separate projects for each country",
+      "Design for the most restrictive requirements and apply globally",
+      "Develop a core solution with country-specific compliance modules",
+      "Focus on countries with least restrictive requirements first"
+    ],
+    "correct_answer": "Develop a core solution with country-specific compliance modules",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You are managing a project where success depends on achieving network effects - the value increases significantly as more users adopt the solution. However, initial adoption requires substantial user behavior change. How do you structure your value delivery approach?",
+    "options": [
+      "Focus on technical functionality and let adoption occur naturally",
+      "Implement comprehensive change management and incentive programs",
+      "Delay launch until critical mass of users commits to adoption",
+      "Create phased rollout with value demonstration at each phase"
+    ],
+    "correct_answer": "Create phased rollout with value demonstration at each phase",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Your project is part of a larger industry transformation where multiple organizations are implementing similar solutions. Success depends not just on your project but on industry-wide adoption creating ecosystem effects. How do you manage dependencies beyond your organizational control?",
+    "options": [
+      "Focus only on your organization's implementation",
+      "Create partnerships with other organizations for coordinated implementation",
+      "Wait for industry leaders to establish standards before proceeding",
+      "Design solutions that provide value independently of industry adoption"
+    ],
+    "correct_answer": "Create partnerships with other organizations for coordinated implementation",
     "difficulty": "Hard"
+  },
+  {
+    "question": "A cross-functional Agile team has been facing delays due to a lack of clarity on decision-making authority. What should the project manager do first to resolve this issue?",
+    "options": [
+      "Escalate the issue to the project sponsor for immediate resolution",
+      "Define a RACI matrix to clarify roles and responsibilities",
+      "Request each team lead to document their responsibilities",
+      "Rotate the Scrum Master role to encourage shared ownership"
+    ],
+    "correct_answer": "Define a RACI matrix to clarify roles and responsibilities",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "You’re leading a hybrid project. One stakeholder insists on frequent requirement changes, while another demands strict adherence to the original scope. What should you do to address this conflict?",
+    "options": [
+      "Prioritize the stakeholder with more authority",
+      "Escalate the disagreement to the steering committee",
+      "Facilitate a session to align on a change control process that supports incremental value delivery",
+      "Enforce predictive methodology to lock down requirements"
+    ],
+    "correct_answer": "Facilitate a session to align on a change control process that supports incremental value delivery",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of the following is the best measure of cost efficiency on a project?",
+    "options": [
+      "Cost Variance (CV)",
+      "Estimate at Completion (EAC)",
+      "Cost Performance Index (CPI)",
+      "Budget at Completion (BAC)"
+    ],
+    "correct_answer": "Cost Performance Index (CPI)",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "A project has an Earned Value (EV) of $40,000, Actual Cost (AC) of $50,000, and Planned Value (PV) of $60,000. What is the project's Schedule Performance Index (SPI)?",
+    "options": [
+      "0.80",
+      "1.25",
+      "1.50",
+      "0.67"
+    ],
+    "correct_answer": "0.67",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "A senior developer consistently disregards team agreements during sprints. As a project manager, what is your best immediate action?",
+    "options": [
+      "Remove the developer from the team",
+      "Report the behavior to HR",
+      "Facilitate a one-on-one conversation to understand the root cause and reinforce team ground rules",
+      "Let the team handle the conflict internally"
+    ],
+    "correct_answer": "Facilitate a one-on-one conversation to understand the root cause and reinforce team ground rules",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which process includes tailoring requirements, breaking down scope, and managing scope creep?",
+    "options": [
+      "Define Scope",
+      "Plan Scope Management",
+      "Control Scope",
+      "Create WBS"
+    ],
+    "correct_answer": "Control Scope",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "During procurement planning in a predictive project, which tool is most useful for evaluating seller proposals?",
+    "options": [
+      "Expert Judgment",
+      "Weighted Scoring Model",
+      "Procurement Audits",
+      "Market Research"
+    ],
+    "correct_answer": "Weighted Scoring Model",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "A project is being transitioned to operations, but the receiving team is unaware of key decisions made during execution. What should the project manager have ensured earlier?",
+    "options": [
+      "A post-mortem meeting was scheduled",
+      "Lessons learned were logged in the repository",
+      "Ongoing knowledge transfer throughout the project",
+      "Handover checklist was signed off"
+    ],
+    "correct_answer": "Ongoing knowledge transfer throughout the project",
+    "difficulty": "Very Hard"
   }
 ]
