@@ -18,75 +18,251 @@
     }
     .buttons button:hover { background-color: #0056b3; }
     .timer { font-size: 1rem; color: #d00; margin-bottom: 1rem; text-align: right; }
+    .pause-section { text-align: right; margin-bottom: 1rem; }
+    #pauseInfo { color: #222; font-size: 0.97rem; }
+    #pauseCountdown { font-weight: bold; color: #0a0; }
+    #resumeBtn { background: #28a745; }
+    #resumeBtn:hover { background: #217838; }
   </style>
 </head>
 <body>
-  <h1>PMP Practice Quiz</h1>
-  <p>Question {{ add .CurrentIndex 1 }} of {{ .TotalCount }}</p>
-  <div class="timer">
-    Time Remaining: <span id="countdown"></span> seconds
+<h1>PMP Practice Quiz</h1>
+<p>Question {{ add .CurrentIndex 1 }} of {{ .TotalCount }}</p>
+<div class="timer">
+  Time Remaining: <span id="countdown"></span>
+</div>
+<div class="pause-section">
+  <span id="pauseInfo"></span>
+  <button id="pauseBtn" type="button">Pause</button>
+  <span id="pauseCountdown" style="display:none;"></span>
+  <button id="resumeBtn" type="button" style="display:none;">Resume</button>
+</div>
+<form id="questionForm" method="POST" action="/next">
+  <div class="question-block">
+    <h2>{{ .Question.Text }}</h2>
+    <p class="difficulty"><strong>Difficulty:</strong> {{ .Question.Difficulty }}</p>
+    <div class="options">
+      {{- range $i, $opt := .Question.Options }}
+      <label>
+        <input type="radio" name="answer" value="{{ $opt }}" required />
+        {{ $opt }}
+      </label>
+      {{- end }}
+    </div>
   </div>
-  <form id="questionForm" method="POST" action="/next">
-    <div class="question-block">
-      <h2>{{ .Question.Text }}</h2>
-      <p class="difficulty"><strong>Difficulty:</strong> {{ .Question.Difficulty }}</p>
-      <div class="options">
-        {{- range $i, $opt := .Question.Options }}
-          <label>
-            <input type="radio" name="answer" value="{{ $opt }}" required />
-            {{ $opt }}
-          </label>
-        {{- end }}
-      </div>
-    </div>
-    <div class="buttons">
-      <button type="submit">Next</button>
-      <button formaction="/end" type="submit">End Quiz</button>
-    </div>
-  </form>
-  <script>
-    // Set total exam time (in seconds)
-    const TOTAL_EXAM_TIME = 11400; // Adjust as needed
+  <div class="buttons">
+    <button type="submit">Next</button>
+    <button formaction="/end" type="submit">End Quiz</button>
+  </div>
+</form>
+<script>
+  /**
+   * --- Quiz Timer with Pause/Resume (2x 5min) ---
+   */
 
-    // Try to use an existing timestamp; otherwise, set it now
-    let examEndTime = localStorage.getItem('examEndTime');
-    if (!examEndTime) {
-      const endTimestamp = Date.now() + TOTAL_EXAM_TIME * 1000;
-      localStorage.setItem('examEndTime', endTimestamp);
-      examEndTime = endTimestamp;
-    } else {
-      examEndTime = parseInt(examEndTime);
+  const TOTAL_EXAM_TIME = 11400; // 3h 10m in seconds
+  const PAUSE_MAX_COUNT = 2;
+  const PAUSE_DURATION = 300; // 5min in seconds
+
+  // Storage keys
+  const STORAGE = {
+    END:      'examEndTime',
+    PAUSES:   'pausesUsed',
+    PAUSING:  'isPaused',
+    PAUSE_LEFT:'pauseTimeLeft',
+    PAUSE_UNTIL:'pauseEndTime',
+    PAUSE_TOTAL:'pauseTotalUsed'
+  };
+
+  let examEndTime, timerId = null, pauseTimerId = null;
+
+  // --- Load/persisted state ---
+  function loadState() {
+    examEndTime = Number(localStorage.getItem(STORAGE.END));
+    if (!examEndTime || isNaN(examEndTime)) {
+      // Set on first load
+      examEndTime = Date.now() + TOTAL_EXAM_TIME * 1000;
+      localStorage.setItem(STORAGE.END, examEndTime);
+      localStorage.setItem(STORAGE.PAUSES, '0');
+      localStorage.setItem(STORAGE.PAUSE_TOTAL, '0');
+      localStorage.removeItem(STORAGE.PAUSING);
+      localStorage.removeItem(STORAGE.PAUSE_LEFT);
+      localStorage.removeItem(STORAGE.PAUSE_UNTIL);
     }
-
-    function updateTimer() {
-  const now = Date.now();
-  const diff = examEndTime - now;
-  const timeLeft = Math.max(0, Math.ceil(diff / 1000));
-  const min = Math.floor(timeLeft / 60);
-  const sec = timeLeft % 60;
-  document.getElementById('countdown').textContent = `${min}:${sec.toString().padStart(2, '0')}`;
-  if (timeLeft <= 0) {
-    clearInterval(timerId);
-    localStorage.removeItem('examEndTime');
-    const form = document.getElementById('questionForm');
-    form.action = "/end";
-    form.method = "POST";
-    document.querySelectorAll('.buttons button').forEach(btn => btn.disabled = true);
-    form.submit();
   }
-}
+  loadState();
 
-    // If exam is already expired, block input immediately
-    if (examEndTime - Date.now() <= 0) {
+  function saveState() {
+    localStorage.setItem(STORAGE.END, examEndTime);
+  }
+
+  function clearAllState() {
+    Object.values(STORAGE).forEach(key => localStorage.removeItem(key));
+  }
+
+  // --- UI elements ---
+  const countdownEl = document.getElementById('countdown');
+  const pauseBtn = document.getElementById('pauseBtn');
+  const resumeBtn = document.getElementById('resumeBtn');
+  const pauseInfo = document.getElementById('pauseInfo');
+  const pauseCountdown = document.getElementById('pauseCountdown');
+
+  // --- Helper: display seconds as MM:SS ---
+  function formatTime(s) {
+    const m = Math.floor(s/60);
+    const ss = (s%60).toString().padStart(2,'0');
+    return `${m}:${ss}`;
+  }
+
+  // --- Timer main loop ---
+  function updateTimer() {
+    // Paused state: timer display frozen at time left
+    if (localStorage.getItem(STORAGE.PAUSING) === 'true') return;
+
+    const now = Date.now();
+    let timeLeft = Math.ceil((examEndTime - now) / 1000);
+    timeLeft = Math.max(0, timeLeft);
+
+    countdownEl.textContent = formatTime(timeLeft);
+
+    // If time runs out: end quiz & clear storage
+    if (timeLeft === 0) {
+      clearInterval(timerId);
+      clearAllState();
       document.querySelectorAll('.buttons button').forEach(btn => btn.disabled = true);
+      document.getElementById('questionForm').submit();
     }
+  }
 
+  // --- Pause/Resume UI state ---
+  function updatePauseUI() {
+    const pausesUsed = Number(localStorage.getItem(STORAGE.PAUSES)) || 0;
+    const pausesLeft = PAUSE_MAX_COUNT - pausesUsed;
+
+    // Info display
+    pauseInfo.textContent = pausesLeft > 0
+            ? `Pauses left: ${pausesLeft}`
+            : `No pauses left`;
+
+    if (localStorage.getItem(STORAGE.PAUSING) === 'true') {
+      // Paused
+      pauseBtn.style.display = 'none';
+      resumeBtn.style.display = '';
+      pauseCountdown.style.display = '';
+    } else {
+      // Not paused
+      pauseBtn.style.display = pausesLeft > 0 ? '' : 'none';
+      resumeBtn.style.display = 'none';
+      pauseCountdown.style.display = 'none';
+    }
+  }
+
+  // --- Pause logic ---
+  function pauseQuiz() {
+    // Allow only if not already paused & pauses left
+    if (localStorage.getItem(STORAGE.PAUSING) === 'true') return;
+
+    let pausesUsed = Number(localStorage.getItem(STORAGE.PAUSES)) || 0;
+    if (pausesUsed >= PAUSE_MAX_COUNT) return;
+
+    // How much quiz time is left?
+    const now = Date.now();
+    let timeLeft = Math.ceil((examEndTime - now) / 1000);
+    timeLeft = Math.max(0, timeLeft);
+
+    // Pause for up to PAUSE_DURATION, always allowed even if <5min left
+    const pauseLeft = PAUSE_DURATION;
+
+    // Save paused state
+    localStorage.setItem(STORAGE.PAUSING, 'true');
+    localStorage.setItem(STORAGE.PAUSE_LEFT, pauseLeft);
+    localStorage.setItem(STORAGE.PAUSE_UNTIL, now + pauseLeft*1000);
+    // Pause count and total used so far
+    localStorage.setItem(STORAGE.PAUSES, pausesUsed + 1);
+
+    // Stop main timer
+    clearInterval(timerId);
+    // Show pause UI and start pause timer
+    startPauseTimer();
+    updatePauseUI();
+  }
+
+  function startPauseTimer() {
+    let pauseUntil = Number(localStorage.getItem(STORAGE.PAUSE_UNTIL)) || (Date.now()+PAUSE_DURATION*1000);
+
+    function tick() {
+      const now = Date.now();
+      let pauseLeft = Math.ceil((pauseUntil - now)/1000);
+      pauseLeft = Math.max(0, pauseLeft);
+
+      pauseCountdown.textContent = `Paused: ${formatTime(pauseLeft)} remaining`;
+      localStorage.setItem(STORAGE.PAUSE_LEFT, pauseLeft);
+
+      if (pauseLeft === 0) {
+        resumeQuiz(true);
+      }
+    }
+    tick();
+    pauseTimerId = setInterval(tick, 1000);
+  }
+
+  // --- Resume logic ---
+  function resumeQuiz(auto=false) {
+    if (localStorage.getItem(STORAGE.PAUSING) !== 'true') return;
+
+    // How much of the 5min pause was actually used?
+    let usedPause = PAUSE_DURATION - (Number(localStorage.getItem(STORAGE.PAUSE_LEFT)) || 0);
+    usedPause = Math.max(0, Math.min(PAUSE_DURATION, usedPause));
+
+    // Extend exam end time by this amount
+    examEndTime = Number(examEndTime) + usedPause * 1000;
+    saveState();
+
+    // Track total pause time (optional, for auditing/debugging)
+    let pauseTotal = Number(localStorage.getItem(STORAGE.PAUSE_TOTAL)) || 0;
+    localStorage.setItem(STORAGE.PAUSE_TOTAL, pauseTotal + usedPause);
+
+    // Clear pause state
+    localStorage.removeItem(STORAGE.PAUSING);
+    localStorage.removeItem(STORAGE.PAUSE_LEFT);
+    localStorage.removeItem(STORAGE.PAUSE_UNTIL);
+
+    clearInterval(pauseTimerId);
+    pauseCountdown.textContent = '';
+    // Resume main timer
+    updatePauseUI();
     updateTimer();
-    const timerId = setInterval(updateTimer, 1000);
+    timerId = setInterval(updateTimer, 1000);
+  }
 
-    document.querySelectorAll('.buttons button').forEach(btn => {
-      btn.addEventListener('click', () => clearInterval(timerId));
+  // --- Restore state on reload ---
+  function restorePauseIfNeeded() {
+    updatePauseUI();
+    if (localStorage.getItem(STORAGE.PAUSING) === 'true') {
+      // Still paused after reload
+      clearInterval(timerId);
+      startPauseTimer();
+    } else {
+      // Not paused: normal timer
+      updateTimer();
+      timerId = setInterval(updateTimer, 1000);
+    }
+  }
+
+  // --- Event listeners ---
+  pauseBtn.onclick = pauseQuiz;
+  resumeBtn.onclick = () => resumeQuiz(false);
+
+  // End quiz manually: clear all timer state
+  document.querySelectorAll('form button,form [formaction="/end"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      clearInterval(timerId); clearInterval(pauseTimerId); clearAllState();
     });
-  </script>
+  });
+
+  window.addEventListener('DOMContentLoaded', restorePauseIfNeeded);
+  window.addEventListener('beforeunload', saveState); // backup endTime
+
+</script>
 </body>
 </html>
